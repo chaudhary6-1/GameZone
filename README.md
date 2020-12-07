@@ -22,7 +22,7 @@ the respective pages showing 2 to 3 games for each page as highlight. It should 
 navigate to the following pages categories, all games, about us, contact us, FAQ's and registration.  
 **new releases, most awaited games, top rated games**: Each of the page should contain games with their 
 images that can be then clicked to navigate to the page for that game.  
-**Game page**: Game page will include the reviews, ratings, official trailer, game plays, 
+**Game page**: Game page will include the reviews, ratings, official trailer, gameplays, 
 hardware requirements and at least one link to buy (if free then to download) that game.  
 **Categories**: Contains the categories of the games and each category can be clicked to land to its page
 for e.g rpg.  
@@ -32,4 +32,4 @@ for e.g rpg.
 **contact us**: A simple formular where you can write your name, email address and a text with max 100 
 words which will then be sent to the company.  
 **FAQ's**: Most asked questions will be answered here.  
-**Registration**: Option to create an account and register for news letter.
+**Registration**: Option to create an account and register for newsletter.
