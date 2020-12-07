@@ -33,3 +33,6 @@ for e.g rpg.
 words which will then be sent to the company.  
 **FAQ's**: Most asked questions will be answered here.  
 **Registration**: Option to create an account and register for newsletter.
+
+**Web Design Diagram** 
+![Alt text](./Diagram/WebDiagram.svg)
