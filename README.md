@@ -9,3 +9,10 @@ You don't know how to play the game, check our wide varieties on quick tutorials
 Check the most top rated games for this year, and the best games for each genre.  
 If you want to buy a game with the lowest price, we can provide several links with the best price out there.  
 for more information check our website and enjoy a lot of what we have to offer.
+
+**Website title, domain and purpose**  
+
+**Website title** Gamezone  
+**Domain** GameZone.ninja  
+**Purpose** Since we have an interest in video games, and how they are designed. We decided to come up with a website to
+help the visitors collect as much information as they can about specific games, and that's why we named our website GameZone.
