@@ -41,4 +41,51 @@ words which will then be sent to the company.
 **XML Data file**: List of all games with their year of release, ratings, reviews, publisher, developers, 
 category and a small description of the game.  
 **SVG**: The logo of the company is to be designed in SVG.  
-**Video**: Trailers and game plays for each game are to added on the website. 
+**Video**: Trailers and game plays for each game are to added on the website.  
+
+**webpage names and content**  
+**Please consider the following file Conventions and Contents**.  
+**Homepage**  
+starting from the Homepage you should consider naming the file index.html and set the title as Homepage.  
+This file should contain a navigation bar that has the following items:  
+1) Categories that contains the types of games given in the web design diagram
+2) All Games web page that shows the available games shown in the diagram
+3) Top rated games
+4) Most awaited games
+5) new Releases
+6) About us
+7) Contact us
+8) Register/log in
+9) FAQ's  
+
+**Categories**  
+Please consider naming this file as categories.html and the title should be set as Categories.  
+This webpage should contain the type of games shown in the diagram which are set in an ascendent order.  
+Each category should contain at least one game of this genre.  
+**All Games**  
+Please consider naming this file allGames.html and the title should be set as All Games.  
+This webpage should contain the games in an ascendent order, and each game should be provided with a picture.  
+**About us**  
+Please consider naming this file as aboutUs.html and the title should be set as About us.  
+should contain a brief introduction to our company, and what it has to offer its visitors.  
+**Contact us**  
+Please consider naming this file as contactUs.html and the title should be set as Contact Us.  
+should contain all the contacting infos, via E-mail and social media.  
+**Register/Log in**  
+Please consider naming this file as registeringInfos.html and the title as Register/Log in.  
+Visitors should be able to register to our website and be able to log in to their accounts.  
+**FAQ's**  
+Please consider naming this file as faqs.html and the title as FAQ's.  
+Visitors of our website should be able to see which question were frequently asked.  
+**Top rated games**  
+Please consider naming this file as topRatedGames.html and the title as Top rated games.  
+Visitors should always be able to check the best available games on the market.  
+**Most awaited games**  
+Please consider naming this file as mostAwaitedGames.html and the title as Most awaited games.  
+Visitors should always be able to see which games are most awaited depending on people's trailer reviews.  
+**New Releases**  
+Please consider naming this file as newReleases.html and the title as new Releases.  
+Visitors should be able to check the latest games released with their reviews.  
+**Games**  
+Please consider naming the file and the title of the game as the name of the game.  
+All given games should have a picture, rating, a quick tutorial video, its price and a description
