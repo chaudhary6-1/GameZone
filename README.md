@@ -12,7 +12,7 @@ for more information check our website and enjoy a lot of what we have to offer.
 
 **Website title, domain and purpose**  
 **Website title**: Gamezone  
-**Domain**: GameZone.ninja  
+**Domain**: https://gamezone.ninja/  
 **Purpose**: Since we have an interest in video games, and how they are designed. We decided to come up with a website to
 help the visitors collect as much information as they can about specific games, and that's why we named our website GameZone.
 
