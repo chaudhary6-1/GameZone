@@ -88,4 +88,36 @@ Please consider naming this file as newReleases.html and the title as new Releas
 Visitors should be able to check the latest games released with their reviews.  
 **Games**  
 Please consider naming the file and the title of the game as the name of the game.  
-All given games should have a picture, rating, a quick tutorial video, its price, hardware required specs, a gameplay video, and a description.
+All given games should have a picture, rating, a quick tutorial video, its price, hardware required specs, 
+a gameplay video, and a description.
+
+**Resources**  
+**ark**:   
+![Alt text](./Resources/GamesPhotos/ark.jpeg)    
+*Trailer*: https://youtu.be/iyvgDZL514A     
+
+**csgo**:    
+![Alt text](./Resources/GamesPhotos/csgo.png)    
+*Trailer*: https://youtu.be/edYCtaNueQY  
+
+**gta**:    
+![Alt text](./Resources/GamesPhotos/gta.jpg)    
+*Trailer*: https://youtu.be/hvoD7ehZPcM  
+
+**league of legends**:    
+![Alt text](./Resources/GamesPhotos/lol.jpg)    
+*Trailer*: https://youtu.be/7O21Z6vgtmY  
+
+**monoply**:    
+![Alt text](./Resources/GamesPhotos/monoply.jpg)   
+*Trailer*: https://youtu.be/nh-wOBN-TgE   
+
+**volarant**:    
+![Alt text](./Resources/GamesPhotos/volarant.jpg)    
+*Trailer*: https://youtu.be/lWr6dhTcu-E  
+
+**warzone**:    
+![Alt text](./Resources/GamesPhotos/warzone.jpg)    
+*Trailer*: https://youtu.be/0E44DClsX5Q  
+
+ 
