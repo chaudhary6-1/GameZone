@@ -36,3 +36,9 @@ words which will then be sent to the company.
 
 **Web Design Diagram** 
 ![Alt text](./Diagram/WebDiagram.svg)
+
+**Requirements**  
+**XML Data file**: List of all games with their year of release, ratings, reviews, publisher, developers, 
+category and a small description of the game.  
+**SVG**: The logo of the company is to be designed in SVG.  
+**Video**: Trailers and game plays for each game are to added on the website. 
