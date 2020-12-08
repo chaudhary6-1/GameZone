@@ -120,4 +120,6 @@ a gameplay video, and a description.
 ![Alt text](./Resources/GamesPhotos/warzone.jpg)    
 *Trailer*: https://youtu.be/0E44DClsX5Q  
 
- 
+**Basic Prototype of the Website**  
+![Alt text](./Resources/Layout/layout.svg)   
+The Website should follow the given prototype in terms of colors, fonts and layout.
