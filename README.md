@@ -123,3 +123,10 @@ a gameplay video, and a description.
 **Basic Prototype of the Website**  
 ![Alt text](./Resources/Layout/layout.svg)   
 The Website should follow the given prototype in terms of colors, fonts and layout.
+
+
+#### Developer Work Distribution
+| Developer | Tasks |
+| ----- | ----- |
+| Shresta | Mokup, Logo, 4 webpages |
+| Albrecht | 5 webpages |
