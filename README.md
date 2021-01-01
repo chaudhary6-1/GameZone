@@ -4,7 +4,7 @@
 
 - **Design of Prototype:** Shrestha
 - **Creation of Prototype:** Shrestha
-- **reation of Logo:** Shrestha
+- **Creation of Logo:** Shrestha
 - **Top rated games page:** Albrecht
 - **Most awaited Games:** Albrecht
 - **New Releases Page:** Albrecht
@@ -14,6 +14,8 @@
 - **Contact Us Page:** Shrestha
 - **Register Page:** Shrestha
 - **FAQ's Page:** Albrecht
+- **Design with CSS** Albrecht & Shrestha
+- **JavaScript** Albrecht & Shrestha
 
 **Business Description**  
 Our goal is to provide our users with the most up to date informations about games,
@@ -90,6 +92,7 @@ should contain all the contacting infos, via E-mail and social media.
 **Register**  
 Please consider naming this file as registeringInfos.html and the title as Register  
 Visitors should be able to register to our website and subscribe to our newsletter.
+
 **FAQ's**  
 Please consider naming this file as faqs.html and the title as FAQ's.  
 Visitors of our website should be able to see which question were frequently asked (answers included).  
