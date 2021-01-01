@@ -4,43 +4,63 @@
 <head>
     <meta charset="utf-8">
     <title>Gamezone</title>
-    <link rel="stylesheet" type="text/css" href="css.css">
-    <script src="mjs.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
 <body>
-    <header>
-        <h1 class="logo"><img src="logo.jpg" alt="Logo" height="32px"></h1>
-        <h><strong>Gamezone</strong></h>
+    <div class="navbar">
+        <header>
+            <nav>
+                <img src="logo.jpg" alt="Logo" height="32px">
+                <h><strong>Gamezone</strong></h>
+
+
+
+
+
+
+
+
+
+                <a href="index.html">Home</a>
+                <a href="categories.html">Catagories</a>
+
+
+
+                <a href="all_games.html">All Games</a>
+                <a href="about_us.html">About us</a>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQs</a>
+
+
+
+            </nav>
+    </div>
     </header>
-
-    <nav>
-        <ul>
-            <li class="navbar-item"><a href="index.html">Home</a></li>
-            <li class="navbar-item"><a href="categories.html">Catagories</a>
-                <ul class="dropdown" id="catagories">
-                    <!--  <li class="dropdown"><a href="shooting.html">Shooting Game</a></li>     -->
-                </ul>
-            </li>
-            <li class="navbar-item"><a href="all_games.html">All Games</a></li>
-            <li class="navbar-item"><a href="about_us.html">About us</a></li>
-            <li class="navbar-item"><a href="contact.html">Contact</a></li>
-            <li class="navbar-item"><a href="faq.html">FAQs</a></li>
-
-        </ul>
-    </nav>
     <main>
+        <nav>
 
-        <div class="column">
-            <div class="row">
-                <h2 class="bodynav" id="newrelease" align="left">New Release</h2>
-                <a href="" title="cod_discription_page" target="_blank">
-                    <img src="picture/COD_warzone.jpg" alt="COD Warzone" style="width:100px;height:100px" align="left">
-                </a><br>
-                <a href="" title="valorant_discription_page" target="_blank" target="_blank">
-                    <img src="picture/volarant.jpg" alt="COD Warzone" style="width:100px;height:100px" align="left">
-                </a>
+            New Release
+            <ul>
+                <li>
+                    <a href="" title="cod_discription_page" target="_blank">
+                        <img src="picture/COD_warzone.jpg" alt="COD Warzone" style="width:100px;height:100px" align="left">
+                    </a>
+                </li>
+                <li>
+                    <a href="" title="valorant_discription_page" target="_blank" target="_blank">
+                        <img src="picture/volarant.jpg" alt="COD Warzone" style="width:100px;height:100px" align="left">
+                    </a>
+                </li>
+            </ul>
             </div>
             <div class="row">
                 <h3 class="bodynav" id="mostawaited">Most Awaited Games</h3>
@@ -70,9 +90,10 @@
 
                 </form>
             </div>
-        </div>
+            </div>
     </main>
 </body>
+</nav>
 <footer>
     <div class="social-media">
         <img class="footer_img" src="facebook_icon.png">
