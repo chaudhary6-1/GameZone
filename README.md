@@ -1,20 +1,19 @@
 # GameZone
-*Developer Work Distribution*
-Developer: Albrecht (Albrenik), Shrestha (shresdee)
+## Developer Work Distribution
+**Developer:** Albrecht (Albrenik), Shrestha (shresdee)
 
-
-Design of Prototype: Shrestha
-Creation of Prototype: Shrestha
-Creation of Logo: Shrestha
-Top rated games page: Albrecht
-Most awaited Games: Albrecht
-New Releases Page: Albrecht
-All Games Page: Albrecht
-Main Page(Categoeries): Shrestha
-About Us Page: Shrestha
-Contact Us Page: Shrestha
-Register Page: Shrestha
-FAQ's Page: Albrecht
+- **Design of Prototype:** Shrestha
+- **Creation of Prototype:** Shrestha
+- **reation of Logo:** Shrestha
+- **Top rated games page:** Albrecht
+- **Most awaited Games:** Albrecht
+- **New Releases Page:** Albrecht
+- **All Games Page:** Albrecht
+- **Main Page(Categoeries):** Shrestha
+- **About Us Page:** Shrestha
+- **Contact Us Page:** Shrestha
+- **Register Page:** Shrestha
+- **FAQ's Page:** Albrecht
 
 **Business Description**  
 Our goal is to provide our users with the most up to date informations about games,
