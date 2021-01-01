@@ -89,7 +89,7 @@ Please consider naming this file as contactUs.html and the title should be set a
 should contain all the contacting infos, via E-mail and social media.  
 **Register**  
 Please consider naming this file as registeringInfos.html and the title as Register  
-Visitors should be able to register to our website and subscribe to our newsletter 
+Visitors should be able to register to our website and subscribe to our newsletter.
 **FAQ's**  
 Please consider naming this file as faqs.html and the title as FAQ's.  
 Visitors of our website should be able to see which question were frequently asked (answers included).  
