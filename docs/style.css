@@ -138,9 +138,11 @@ a {
     margin-left: 30px;
     font-size: 18px;
 }
-
+footer{
+background-color:#c4c4c4;
+}
 .footer_img{
-	float: left;
+	float: center;
 	width: 50px;
 	margin-right: 2%;
 	padding: 20px;
