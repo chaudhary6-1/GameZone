@@ -12,7 +12,7 @@ function getGameListforAllGames(filter) {
 	}
 }
 
-xhttp.open("GET", "https://github.com/chaudhary6-1/GameZone/tree/main/Resources/games.xml", true);
+xhttp.open("GET", "https://github.com/chaudhary6-1/GameZone/blob/develop/docs/Resources/games.xml", true);
 xhttp.send();
 
 function gameListGame(filter) {
@@ -29,7 +29,7 @@ function gameListGame(filter) {
 			continue;
 		}
 		
-		htmlMovieList += "<li>"
+		htmlGameList += "<li>"
 							+ "<a href='#'>"
 								+ "<h2>" + xmlNames[i].childNodes[0].nodeValue + "(" + xmlRelease[i].childNodes[0].nodeValue +  ")</h2>"
 								+ "<iframe width='560' height='315' src='" + xmlVideos[i].childNodes[0].nodeValue + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
@@ -38,5 +38,5 @@ function gameListGame(filter) {
 						+ "</li>";
 	}
 	
-	document.getElementById("games-game-list").innerHTML = htmlMovieList;
+	document.getElementById("games-game-list").innerHTML = htmlGameList;
 }
