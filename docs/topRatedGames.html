@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Top rated Games</title>
+    <meta charset="utf-8" />
+    <title>Top Rated Games</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 
 </head>
 
-<body>
-    <div class="navbar">
+<body onload="getGameListForAllGames(0);"> 
         <header>
+            <img src="Resources/Logo/logo.jpg" alt="Logo" height="70px">
+        </header>
+
             <nav>
-                <img src="Resources/Logo/logo.jpg" alt="Logo" height="70px">
+                
                 <h><strong>Gamezone</strong></h>
 
 
@@ -27,19 +29,20 @@
                 <a href="faqs.html">FAQs</a>
 
             </nav>
-        </header>
-    </div>
 
     <main>
-         <!--  Main Content     -->
+         <h1>Top Rated Games</h1>
+         <div class="list">
+            <ul id="games-game-list"> </ul>
+
+         </div>
        
     </main>
 
 <footer>
-    <div class="social-media">
-        <img class="footer_img" src="facebook_icon.png">
-        <img class="footer_img" src="Twitter.jpg" style="width:40px;height:40px">
-        <img class="footer_img" src="">
+    <div> <a href="https://www.facebook.com"><img class="footer_img" alt="Facebook" src="Resources/Facebook_icon.svg"></a>
+        <a href="https://twitter.com"><img class="footer_img" alt="Twitter" src="Resources/Twitter.svg"></a>
+        <a href="https://www.instagram.com/"><img class="footer_img" alt="Instagram" src="Resources/Instagram.svg"></a>   
     </div>
     <div class="copyright">
         &copy; Copyright 2020,

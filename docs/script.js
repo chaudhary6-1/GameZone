@@ -12,7 +12,7 @@ function getGameListforAllGames(filter) {
 	}
 }
 
-xhttp.open("GET", "https://github.com/chaudhary6-1/GameZone/blob/develop/docs/Resources/games.xml", true);
+xhttp.open("GET","https://github.com/chaudhary6-1/GameZone/blob/develop/docs/Resources/games.xml", true);
 xhttp.send();
 
 function gameListGame(filter) {
