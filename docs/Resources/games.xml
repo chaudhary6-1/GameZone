@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<games>
+	<game>
+		<name>
+			ARK Survival Evolved
+		</name>
+		<description>
+			Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape! 
+		</description>
+		<image>
+			arc.jpg
+		</image>
+		<video>
+			https://www.youtube.com/embed/5fIAPcVdZO8
+		</video>
+		<release>
+			Aug 27, 2017
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</movie>
+	<game info="top">
+		<name>
+			Counter-Strike: Global Offensive
+		</name>
+		<description>
+			Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. ... The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives.
+		</description>
+		<image>
+			csgo.jpg
+		</image>
+		<video>
+			https://www.youtube.com/embed/edYCtaNueQY
+		</video>
+		<release>
+			Aug 21, 2012
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+	<game>
+		<name>
+			Grand Theft Auto V
+		</name>
+		<description>
+			Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.
+		</description>
+		<image>
+			gta.jpg
+		</image>
+		<video>
+			https://www.youtube.com/embed/QkkoHAzjnUs
+		</video>
+		<release>
+			Sep 17, 2013
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+	<game>
+		<name>
+			Monopoly
+		</name>
+		<description>
+			EMBARK ON A JOURNEY TO OWN IT ALL! Build your empire on a colorful and 3D lively city animated by funny sidekicks! MONOPOLY® PLUS brings the classic franchise to a new level on PC with amazing animations, customizable house rules!
+		</description>
+		<image>
+			monopoly.jpeg
+		</image>
+		<video>
+			https://www.youtube.com/embed/nh-wOBN-TgE
+		</video>
+		<release>
+			Nov 25, 2014
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+	<game info="top">
+		<name>
+			League of Legends
+		</name>
+		<description>
+			League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
+		</description>
+		<image>
+			lol.jpeg
+		</image>
+		<video>
+			https://www.youtube.com/embed/7O21Z6vgtmY
+		</video>
+		<release>
+			Okt 27, 2009
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+	<game info="soon">
+		<name>
+			Hitman III
+		</name>
+		<description>
+			HITMAN 3 is the dramatic conclusion to the World of Assassination trilogy.
+		</description>
+		<image>
+			hitman-3.jpg
+		</image>
+		<video>
+			https://www.youtube.com/embed/R_Ob-fupzKg
+		</video>
+		<release>
+			2021
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+	<game info="new">
+		<name>
+			Valorant
+		</name>
+		<description>
+			Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.
+		</description>
+		<image>
+			valorant.jpg
+		</image>
+		<video>
+			https://www.youtube.com/embed/e_E9W2vsRbQ
+		</video>
+		<release>
+			June 2, 2020
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+	<game info="new">
+		<name>
+			Call of Duty Warzone
+		</name>
+		<description>
+		    Welcome to the Warzone! Warzone is Call of Duty: Modern Warfare’s latest first-person action, battle royale-style experience. 
+		</description>
+		<image>
+			warzone.jpeg
+		</image>
+		<video>
+			https://www.youtube.com/embed/0E44DClsX5Q
+		</video>
+		<release>
+			March 10, 2020
+		</release>
+        <reviews>
+        </reviews>
+        <publisher>
+        </publisher>
+        <rating>
+        </rating>
+	</game>
+</games>

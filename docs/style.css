@@ -1,1 +1,147 @@
+body {
+	color: #d1d1eb;
+	font-family: Arial;
+	background-color: rgb(34, 34, 34);
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	grid-template-areas:
+		"header nav"
+		"main main" 
+		"footer footer";
+	margin:0;
+}
 
+
+header {
+	grid-area: header;
+}
+
+nav {
+	grid-area: nav;
+}
+
+main {
+	width: 100%;
+    grid-area: main;
+}
+
+main > h1 {
+    background-color: rgb(20, 0, 68);
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    border-top: 10px solid rgba(46, 32, 44, 0.959);
+    border-bottom: 10px solid rgba(46, 32, 44, 0.959);
+	border-right: 10px solid rgba(46, 32, 44, 0.959);
+	border-left: 10px solid rgba(46, 32, 44, 0.959);
+	
+}
+
+.list{
+	background-color: rgba(44, 0, 165, 0.7);
+    width: 100%;
+    font-size: 15px;
+    text-align: inherit;
+    padding: 0;
+    border-top: 10px solid rgba(46, 32, 44, 0.959);
+    border-bottom: 10px solid rgba(46, 32, 44, 0.959);
+}
+
+
+ul > li > p {
+    text-align: center; 
+    margin: 0; 
+    padding-top: 10px;
+	padding-bottom: 10px;
+	width: 200px;
+}
+
+footer {
+	grid-area: footer;
+}
+
+footer ul {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;	
+	align-items: stretch;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav ul {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-around;
+		align-items: stretch;
+	}
+
+nav ul > li {
+	margin-top: 40px;
+	font-size: 1.5em;
+}
+
+nav ul ul {
+	position: absolute;
+	display: block;
+}
+
+nav ul ul li {
+	list-style-type: circle;
+}
+
+nav ul ul * {
+	font-size: 0.9em;
+	color: #C6C6C6;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#games-game-list {
+	display: grid;		
+	margin-top: 0px;
+	padding-right: 40px;
+}
+
+#games-game-list>ul>li {
+	display: grid;		
+}
+	
+#games-game-list>li>a {
+	display: grid;
+	 grid-template:
+		"title title"
+		"trailer details"
+		/ 1fr 2fr;
+	column-gap: 10px;
+}
+#games-game-list>li>a>h2 {
+	grid-area: title;
+}
+	
+#games-game-list>li>a>iframe {
+	grid-area: trailer;
+}
+	
+#games-game-list>li>a>div {
+	grid-area: details;
+}
+
+.footer-text{
+    text-align: left;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.footer_img{
+	float: left;
+	width: 50px;
+	margin-right: 2%;
+	padding: 20px;
+}

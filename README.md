@@ -16,6 +16,7 @@
 - **FAQ's Page:** Albrecht
 - **Design with CSS** Albrecht & Shrestha
 - **JavaScript** Albrecht & Shrestha
+- **XML Data** Albrecht
 
 **Business Description**  
 Our goal is to provide our users with the most up to date informations about games,
