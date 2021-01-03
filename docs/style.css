@@ -3,7 +3,7 @@ body {
 	font-family: Arial;
 	background-color: rgb(34, 34, 34);
 	display: grid;
-	grid-template-columns: 1fr 6fr;
+	grid-template-columns: 10% 90%;
 	grid-template-areas:
 		"header nav"
 		"main main" 
@@ -17,7 +17,6 @@ header {
 }
 
 nav {
-	
 	grid-area: nav;
 }
 
@@ -48,6 +47,10 @@ main > h1 {
     border-bottom: 10px solid rgba(46, 32, 44, 0.959);
 }
 
+#heading {
+	color: rgba(255, 255, 255, 0.7);
+	
+}
 
 ul > li > p {
     text-align: center; 
@@ -75,36 +78,14 @@ ul {
 
 nav ul {
 	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;
-	align-items: stretch;
-	padding-bottom: 10px;
+	justify-content: space-evenly;
 	background-color: rgba(53, 53, 53, 0.959); 
 	}
 
-nav ul li:first-child {
- margin-left: -10px;
-	color: blue;
-	
-}
 
 nav ul > li {
-	margin-top: 20px;
+	margin-top: 50px;
 	font-size: 1.5em;
-}
-
-nav ul ul {
-	position: absolute;
-	display: block;
-}
-
-nav ul ul li {
-	list-style-type: circle;
-}
-
-nav ul ul * {
-	font-size: 0.9em;
-	color: #C6C6C6;
 }
 
 a {
