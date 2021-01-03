@@ -138,12 +138,19 @@ a {
     margin-left: 30px;
     font-size: 18px;
 }
-footer{
-background-color:#c4c4c4;
+
+footer {
+	background-color:rgba(46, 32, 44, 0.959);
+	padding-bottom: 2em;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2em;
 }
-.footer_img{
+
+.footer_img {
 	float: center;
 	width: 50px;
 	margin-right: 2%;
-	padding: 20px;
+	
 }
