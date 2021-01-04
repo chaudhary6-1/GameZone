@@ -1,6 +1,18 @@
 var xhttp = new XMLHttpRequest();
 var xmlData;
 
+// Get XML data and calling movieListHome(start)
+function getGameListForHome() {
+	if (xmlData == undefined) {	
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				xmlData = this.responseXML;	
+				gameListGame(0);
+			}	
+		};
+	}
+}
+
 function getGameListforAllGames(filter) {
 	if (xmlData == undefined) {	
 		xhttp.onreadystatechange = function() {
