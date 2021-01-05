@@ -13,7 +13,8 @@ function getGameListforAllGames(filter) {
 }
 
 // Acces not granted but link is correct
-xhttp.open("GET","https://chaudhary6-1.github.io/GameZone/Resources/games.xml", true);
+//xhttp.open("GET","https://chaudhary6-1.github.io/GameZone/Resources/games.xml", true);
+xhttp.open("GET","https://gamezone.ninja/Resources/games.xml", true);
 
 xhttp.send();
 
