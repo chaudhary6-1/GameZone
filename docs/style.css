@@ -78,14 +78,6 @@ ul > li > p {
 	width: 200px;
 }
 
-footer ul {
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-around;	
-	align-items: stretch;
-	height: 100%;
-}
-
 ul {
 	list-style-type: none;
 }
@@ -134,20 +126,25 @@ a {
 footer {
 	background-color:rgba(46, 32, 44, 0.959);
 	padding-bottom: 2em;
-	padding-left: 3em;
-	position: absolute;
 	height: 2em;
-	position: fixed;
   	left: 0;
-  	bottom: 0;
   	width: 100%;
  
+}
+
+footer div ul {
+	display: flex;
+	flex-flow: row nowrap;
+	padding-top: 1em;
+	justify-content: space-around;	
+	align-items: stretch;
+	height: 100%;
+	color: #C1C1C1;
 }
 
 .footer_img {
 	
 	width: 50px;
-	margin-right: 2%;
 	
 }
 
