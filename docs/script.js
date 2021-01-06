@@ -1,7 +1,8 @@
 var xhttp = new XMLHttpRequest();
 var xmlData;
 
-function getGameListforAllGames(filter) {
+
+function getGameListForAllGames(filter) {
 	if (xmlData == undefined) {	
 		xhttp.onreadystatechange = function() {
 			if (this.readyState == 4 && this.status == 200) {
@@ -12,11 +13,16 @@ function getGameListforAllGames(filter) {
 	}
 }
 
-// Acces not granted but link is correct
-//xhttp.open("GET","https://chaudhary6-1.github.io/GameZone/Resources/games.xml", true);
-xhttp.open("GET","https://gamezone.ninja/Resources/games.xml", true);
-
-xhttp.send();
+function getGameListForTopRated(filter) {
+	if (xmlData == undefined) {
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				xmlData = this.responseXML;
+				gameListGame(0);
+			}
+		}
+	}
+}
 
 function gameListGame(filter) {
 	var xmlNames = xmlData.getElementsByTagName("name");
@@ -25,6 +31,10 @@ function gameListGame(filter) {
 	var xmlRelease = xmlData.getElementsByTagName("release");
 	let htmlGameList = "";
 	
+	
+
+	// TODO function to take all the specific Categories+
+
 	for (var i = 0; i < xmlNames.length; i++) {
 		if (filter == 1 && xmlData.getElementsByTagName("game")[i].getAttribute("info") != "top") {
 			continue;
@@ -43,3 +53,6 @@ function gameListGame(filter) {
 	
 	document.getElementById("games-game-list").innerHTML = htmlGameList;
 }
+
+xhttp.open("GET","https://gamezone.ninja/Resources/games.xml", true);
+xhttp.send();

@@ -40,6 +40,7 @@ body {
 	height: 180px;
 }
 
+/*
 main > h1 {
     background-color: rgb(20, 0, 68);
 	text-align: left;
@@ -51,6 +52,7 @@ main > h1 {
 	border-left: 10px solid rgba(46, 32, 44, 0.959);
 	
 }
+*/
 
 h1 {
 	background-color: rgb(38, 34, 46);
@@ -62,6 +64,7 @@ h1 {
 
 #title {
 	 font-size: 50px;
+	 margin-right: 3em;
 }
 
 

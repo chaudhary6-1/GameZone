@@ -27,8 +27,14 @@
         <rating>
 			3.5/5 Stars
         </rating>
+		<category>
+			Survival
+		</category>
+		<info>
+			none
+		</info>
 	</game>
-	<game info="top">
+	<game>
 		<name>
 			Counter-Strike: Global Offensive
 		</name>
@@ -55,8 +61,14 @@
         <rating>
 			4.8/5 Stars
         </rating>
+		<category>
+			Shooter
+		</category>
+		<info>
+			none
+		</info>
 	</game>
-	<game>
+	<game info="top">
 		<name>
 			Grand Theft Auto V
 		</name>
@@ -81,8 +93,14 @@
         <rating>
 			4.5/5 Stars
         </rating>
+		<category>
+			Open World
+		</category>
+		<info>
+			top
+		</info>
 	</game>
-	<game>
+	<game info="awaited">
 		<name>
 			Monopoly
 		</name>
@@ -108,6 +126,12 @@
         <rating>
 			2/5 Stars
         </rating>
+		<category>
+			Board games
+		</category>
+		<info>
+			awaited
+		</info>
 	</game>
 	<game info="top">
 		<name>
@@ -135,6 +159,12 @@
         <rating>
 			4.9/5 Stars
         </rating>
+		<category>
+			RPG
+		</category>
+		<info>
+			top
+		</info>
 	</game>
 	<game info="soon">
 		<name>
@@ -161,6 +191,12 @@
         <rating>
 			-/5 Stars
         </rating>
+		<category>
+			Shooter
+		</category>
+		<info>
+			soon
+		</info>
 	</game>
 	<game info="new">
 		<name>
@@ -188,6 +224,12 @@
         <rating>
 			4/5 Stars
         </rating>
+		<category>
+			Shooter
+		</category>
+		<info>
+			new
+		</info>
 	</game>
 	<game info="new">
 		<name>
@@ -215,5 +257,12 @@
         <rating>
 			3.5/5 Stars
         </rating>
+		<category>
+			Shooter
+		</category>
+		<info>
+			new
+			awaited
+		</info>
 	</game>
 </games>
