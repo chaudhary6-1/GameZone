@@ -2,17 +2,13 @@
 <games>
 	<game>
 		<name>ARK Survival Evolved</name>
-		<description>
-			Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape! 
-		</description>
+		<description>Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!</description>
 		<image>arc.jpg</image>
 		<video>	https://www.youtube.com/embed/5fIAPcVdZO8</video>
 		<release>Aug 27, 2017</release>
-        <reviews>
-			ARK is an amazing game, But rememeber that the game is still in ALPHA STAGES. 
+        <reviews>ARK is an amazing game, But rememeber that the game is still in ALPHA STAGES. 
 			It still has a ways to go before it finished, but it is headed in the right direction. 
-			It gets your heart pumping when you have a lot to lose, and you got a giant dinosaur chasing you down through a forest.
-        </reviews>
+			It gets your heart pumping when you have a lot to lose, and you got a giant dinosaur chasing you down through a forest.</reviews>
         <publisher>Studio Wildcard</publisher>
         <rating>3.5/5 Stars</rating>
 		<category>Survival</category>
@@ -20,255 +16,100 @@
 		<site>https://gamezone.ninja/ark.html</site>
 	</game>
 	<game>
-		<name>
-			Counter-Strike: Global Offensive
-		</name>
-		<description>
-			Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. ... The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives.
-		</description>
-		<image>
-			csgo.jpg
-		</image>
-		<video>
-			https://www.youtube.com/embed/edYCtaNueQY
-		</video>
-		<release>
-			Aug 21, 2012
-		</release>
-        <reviews>
-			No wonder CS is 20+ years old. This game is so addictive. I was never really into gaming but this game changed my opinion. 
+		<name>Counter-Strike: Global Offensive</name>
+		<description>Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Valve and Hidden Path Entertainment. ... The game pits two teams against each other: the Terrorists and the Counter-Terrorists. Both sides are tasked with eliminating the other while also completing separate objectives.</description>
+		<image>csgo.jpg</image>
+		<video>https://www.youtube.com/embed/edYCtaNueQY</video>
+		<release>Aug 21, 2012</release>
+        <reviews>No wonder CS is 20+ years old. This game is so addictive. I was never really into gaming but this game changed my opinion. 
 			This is one of the most accurate FPS games ever made with 128 tick servers. 
-			This game requires passion, dedication, hardwork, skill &amp; a lot of practice because every pixel counts when you trigger you gun.
-        </reviews>
-        <publisher>
-			Valve
-        </publisher>
-        <rating>
-			4.8/5 Stars
-        </rating>
-		<category>
-			Shooter
-		</category>
-		<info>
-			none
-		</info>
-		<site>
-			https://gamezone.ninja/csgo.html
-		</site>
+			This game requires passion, dedication, hardwork, skill &amp; a lot of practice because every pixel counts when you trigger you gun.</reviews>
+        <publisher>Valve</publisher>
+        <rating>4.8/5 Stars</rating>
+		<category>Shooter</category>
+		<info>none</info>
+		<site>https://gamezone.ninja/csgo.html</site>
 	</game>
-	<game info="top">
-		<name>
-			Grand Theft Auto V
-		</name>
-		<description>
-			Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.
-		</description>
-		<image>
-			gta.jpg
-		</image>
-		<video>
-			https://www.youtube.com/embed/QkkoHAzjnUs
-		</video>
-		<release>
-			Sep 17, 2013
-		</release>
-        <reviews>
-			Singleplayer is and has always been a masterpiece. Multiplayer used to be amazing, but has declined to being a virtual Iraq. Do not play online.
-        </reviews>
-        <publisher>
-			Rockstar Games
-        </publisher>
-        <rating>
-			4.5/5 Stars
-        </rating>
-		<category>
-			Open World
-		</category>
-		<info>
-			top
-		</info>
-		<site>
-			https://gamezone.ninja/gta5.html
-		</site>
+	<game>
+		<name>Grand Theft Auto V</name>
+		<description>Los Santos: a sprawling sun-soaked metropolis full of self-help gurus, starlets and fading celebrities, once the envy of the Western world, now struggling to stay afloat in an era of economic uncertainty and cheap reality TV.</description>
+		<image>gta.jpg</image>
+		<video>https://www.youtube.com/embed/QkkoHAzjnUs</video>
+		<release>Sep 17, 2013</release>
+        <reviews>Singleplayer is and has always been a masterpiece. Multiplayer used to be amazing, but has declined to being a virtual Iraq. Do not play online.</reviews>
+        <publisher>Rockstar Games </publisher>
+        <rating>.5/5 Stars</rating>
+		<category>Open World</category>
+		<info>top</info>
+		<site>https://gamezone.ninja/gta5.html</site>
 	</game>
-	<game info="awaited">
-		<name>
-			Monopoly
-		</name>
-		<description>
-			EMBARK ON A JOURNEY TO OWN IT ALL! Build your empire on a colorful and 3D lively city animated by funny sidekicks! MONOPOLY® PLUS brings the classic franchise to a new level on PC with amazing animations, customizable house rules!
-		</description>
-		<image>
-			monopoly.jpeg
-		</image>
-		<video>
-			https://www.youtube.com/embed/nh-wOBN-TgE
-		</video>
-		<release>
-			Nov 25, 2014
-		</release>
-        <reviews>
-			Have you ever played Monopoly and felt buyer's remorse? Perhaps you bought the browns and nobody landed on them, or you built a hotel on Mayfair only to go bankrupt the next turn.
-			Monopoly Plus takes that feeling to a whole new level - reality. For the low and a few hours of your time, you too can experience the strong urge to gouge your brain out with a blunt pencil.
-        </reviews>
-        <publisher>
-			Ubisoft
-        </publisher>
-        <rating>
-			2/5 Stars
-        </rating>
-		<category>
-			Board games
-		</category>
-		<info>
-			awaited
-		</info>
-		<site>
-			https://gamezone.ninja/monopolyPlus.html
-		</site>
+	<game>
+		<name>Monopoly</name>
+		<description>EMBARK ON A JOURNEY TO OWN IT ALL! Build your empire on a colorful and 3D lively city animated by funny sidekicks! MONOPOLY® PLUS brings the classic franchise to a new level on PC with amazing animations, customizable house rules!</description>
+		<image>monopoly.jpeg</image>
+		<video>https://www.youtube.com/embed/nh-wOBN-TgE</video>
+		<release>Nov 25, 2014</release>
+        <reviews>Have you ever played Monopoly and felt buyer's remorse? Perhaps you bought the browns and nobody landed on them, or you built a hotel on Mayfair only to go bankrupt the next turn.
+			Monopoly Plus takes that feeling to a whole new level - reality. For the low and a few hours of your time, you too can experience the strong urge to gouge your brain out with a blunt pencil.</reviews>
+        <publisher>Ubisoft </publisher>
+        <rating>2/5 Stars</rating>
+		<category>Board games</category>
+		<info>awaited</info>
+		<site>https://gamezone.ninja/monopolyPlus.html</site>
 	</game>
-	<game info="top">
-		<name>
-			League of Legends
-		</name>
-		<description>
-			League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.
-		</description>
-		<image>
-			lol.jpeg
-		</image>
-		<video>
-			https://www.youtube.com/embed/7O21Z6vgtmY
-		</video>
-		<release>
-			Okt 27, 2009
-		</release>
-        <reviews>
-			Playing with 4 other good players will make you enjoy the game very much. When playing with bad teammates you will not have a lot of fun.
-			Fortunately most players are very friendly and helpful when they play with new players. When playing with 4 people you know the game is by no doubt one when not the best game to play as a group of 5 people.
-        </reviews>
-        <publisher>
-			Riot Games
-        </publisher>
-        <rating>
-			4.9/5 Stars
-        </rating>
-		<category>
-			RPG
-		</category>
-		<info>
-			top
-		</info>
-		<site>
-			https://gamezone.ninja/leagueOfLegends.html
-		</site>
+	<game>
+		<name>League of Legends</name>
+		<description>League of Legends is a team-based strategy game where two teams of five powerful champions face off to destroy the other’s base. Choose from over 140 champions to make epic plays, secure kills, and take down towers as you battle your way to victory.</description>
+		<image>lol.jpeg</image>
+		<video>https://www.youtube.com/embed/7O21Z6vgtmY</video>
+		<release>Okt 27, 2009</release>
+        <reviews>Playing with 4 other good players will make you enjoy the game very much. When playing with bad teammates you will not have a lot of fun.
+			Fortunately most players are very friendly and helpful when they play with new players. When playing with 4 people you know the game is by no doubt one when not the best game to play as a group of 5 people.</reviews>
+        <publisher>Riot Games</publisher>
+        <rating>4.9/5 Stars </rating>
+		<category>RPG</category>
+		<info>top</info>
+		<site>https://gamezone.ninja/leagueOfLegends.html</site>
 	</game>
-	<game info="soon">
-		<name>
-			Hitman III
-		</name>
-		<description>
-			HITMAN 3 is the dramatic conclusion to the World of Assassination trilogy.
-		</description>
-		<image>
-			hitman-3.jpg
-		</image>
-		<video>
-			https://www.youtube.com/embed/R_Ob-fupzKg
-		</video>
-		<release>
-			Jan 20, 2021
-		</release>
-        <reviews>
-			Will be released Soon.
-        </reviews>
-        <publisher>
-			IO Interactive
-        </publisher>
-        <rating>
-			-/5 Stars
-        </rating>
-		<category>
-			Shooter
-		</category>
-		<info>
-			soon
-		</info>
-		<site>
-			https://gamezone.ninja/hitman3.html
-		</site>
+	<game>
+		<name>Hitman III</name>
+		<description>HITMAN 3 is the dramatic conclusion to the World of Assassination trilogy.</description>
+		<image>hitman-3.jpg</image>
+		<video>https://www.youtube.com/embed/R_Ob-fupzKg</video>
+		<release>Jan 20, 2021</release>
+        <reviews>Will be released Soon.</reviews>
+        <publisher>IO Interactive</publisher>
+        <rating>-/5 Stars</rating>
+		<category>Shooter</category>
+		<info>soon</info>
+		<site>https://gamezone.ninja/hitman3.html</site>
 	</game>
-	<game info="new">
-		<name>
-			Valorant
-		</name>
-		<description>
-			Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.
-		</description>
-		<image>
-			valorant.jpg
-		</image>
-		<video>
-			https://www.youtube.com/embed/e_E9W2vsRbQ
-		</video>
-		<release>
-			June 2, 2020
-		</release>
-        <reviews>
-			A 5v5 character-based tactical shooter. Imagine this: tactical shooter meets hypernatural powers. Everyone’s got guns and a unique set of abilities, so how do you beat someone with the speed of wind? 
-			Use your own moves to outplay them and beat them to the shot. VALORANT is a game for bold strategists who dare to make the unexpected play, because if it wins, it works.
-        </reviews>
-        <publisher>
-			Riot Games
-        </publisher>
-        <rating>
-			4/5 Stars
-        </rating>
-		<category>
-			Shooter
-		</category>
-		<info>
-			new
-		</info>
-		<site>
-			https://gamezone.ninja/valorant.html
-		</site>
+	<game>
+		<name>Valorant</name>
+		<description>Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.</description>
+		<image>valorant.jpg</image>
+		<video>https://www.youtube.com/embed/e_E9W2vsRbQ</video>
+		<release>June 2, 2020</release>
+        <reviews>A 5v5 character-based tactical shooter. Imagine this: tactical shooter meets hypernatural powers. Everyone’s got guns and a unique set of abilities, so how do you beat someone with the speed of wind? 
+			Use your own moves to outplay them and beat them to the shot. VALORANT is a game for bold strategists who dare to make the unexpected play, because if it wins, it works.</reviews>
+        <publisher>Riot Games</publisher>
+        <rating>4/5 Stars </rating>
+		<category>Shooter</category>
+		<info>new</info>
+		<site>https://gamezone.ninja/valorant.html</site>
 	</game>
-	<game info="new">
-		<name>
-			Call of Duty Warzone
-		</name>
-		<description>
-		    Welcome to the Warzone! Warzone is Call of Duty: Modern Warfare’s latest first-person action, battle royale-style experience. 
-		</description>
-		<image>
-			warzone.jpeg
-		</image>
-		<video>
-			https://www.youtube.com/embed/0E44DClsX5Q
-		</video>
-		<release>
-			March 10, 2020
-		</release>
-        <reviews>
-			A brilliant battle royale that in many ways copies its competitors but also brings great ideas of its own and doesn’t let you catch your breath for a second. 
-			Its connection with the regular Modern Warfare multiplayer mode is just the icing on the cake.
-        </reviews>
-        <publisher>
-			Activision
-        </publisher>
-        <rating>
-			3.5/5 Stars
-        </rating>
-		<category>
-			Shooter
-		</category>
-		<info>
-			new
-			awaited
-		</info>
-		<site>
-			https://gamezone.ninja/callOfDutyWZ.html
-		</site>
+	<game>
+		<name>Call of Duty Warzone</name>
+		<description>Welcome to the Warzone! Warzone is Call of Duty: Modern Warfare’s latest first-person action, battle royale-style experience. </description>
+		<image>warzone.jpeg</image>
+		<video>https://www.youtube.com/embed/0E44DClsX5Q</video>
+		<release>March 10, 2020</release>
+        <reviews>A brilliant battle royale that in many ways copies its competitors but also brings great ideas of its own and doesn’t let you catch your breath for a second. 
+			Its connection with the regular Modern Warfare multiplayer mode is just the icing on the cake.</reviews>
+        <publisher>Activision</publisher>
+        <rating>3.5/5 Stars</rating>
+		<category>Shooter</category>
+		<info>new awaited</info>
+		<site>https://gamezone.ninja/callOfDutyWZ.html</site>
 	</game>
 </games>

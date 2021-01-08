@@ -12,7 +12,6 @@ function getAllGameVideos() {
 			games.forEach(gameXmlNode => {
 				debugger;
 				xmlContent2 += "<li>"
-							//+"<a href='#'>"
 							+ "<a href='" + gameXmlNode.children[10].innerHTML + "'>"	
 								+ "<h2>" + gameXmlNode.children[0].innerHTML + "(" + gameXmlNode.children[4].innerHTML +  ")</h2>"
 							+ "</a>"
