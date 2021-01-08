@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="utf-8">
-    <title>Categories</title>
+    <title>Valorant</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="gameData.js"></script>
 
 </head>
 
-<body>
+<body onload="getGame('Valorant');">
     <div class="header"> 
         <a href="index.html">
             <div class="logo">
@@ -58,18 +58,11 @@
     </div>
         
 <main>
-     <h1>Categories</h1>
-     <ul id="Categories_List">
-         <li>
-             <a href="mostAwaitedGames.html">Most Awaited Games</a>
-        </li>
-        <li>
-            <a href="topRatedGames.html">Top Rated Games</a>
-        </li>
-        <li>
-            <a href="newReleases.html">New Released Games</a>
-       </li>
-     </ul>
+     <h1>Valorant</h1>
+     <div class="list">
+        <ul id="games-game-list"> </ul>
+
+     </div>
    
 </main>
 
@@ -83,6 +76,7 @@
           <li id="copyrigth">&copy; Copyright 2020</li>  
         </ul> 
     </div>
+
 </footer>
 </body>
 </html>

@@ -31,7 +31,8 @@ body {
 
 .nav a {
     font-size: 40px;
-    font-weight: bold;
+	font-weight: bold;
+	
     letter-spacing: 2px;
     color: #C1C1C1;
 }
@@ -40,19 +41,13 @@ body {
 	height: 180px;
 }
 
-/*
-main > h1 {
-    background-color: rgb(20, 0, 68);
-	text-align: left;
-	width: fit-content;
-    padding: 20px;
-    border-top: 10px solid rgba(46, 32, 44, 0.959);
-    border-bottom: 10px solid rgba(46, 32, 44, 0.959);
-	border-right: 10px solid rgba(46, 32, 44, 0.959);
-	border-left: 10px solid rgba(46, 32, 44, 0.959);
+
+#Categories_List li {
+	font-size: 40px;
+	color: aliceblue;
 	
 }
-*/
+
 
 h1 {
 	background-color: rgb(38, 34, 46);

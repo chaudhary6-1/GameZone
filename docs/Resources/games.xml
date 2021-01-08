@@ -33,6 +33,9 @@
 		<info>
 			none
 		</info>
+		<site>
+			
+		</site>
 	</game>
 	<game>
 		<name>
@@ -67,6 +70,9 @@
 		<info>
 			none
 		</info>
+		<site>
+
+		</site>
 	</game>
 	<game info="top">
 		<name>
@@ -99,6 +105,9 @@
 		<info>
 			top
 		</info>
+		<site>
+			
+		</site>
 	</game>
 	<game info="awaited">
 		<name>
@@ -132,6 +141,9 @@
 		<info>
 			awaited
 		</info>
+		<site>
+			
+		</site>
 	</game>
 	<game info="top">
 		<name>
@@ -165,6 +177,9 @@
 		<info>
 			top
 		</info>
+		<site>
+			
+		</site>
 	</game>
 	<game info="soon">
 		<name>
@@ -197,6 +212,9 @@
 		<info>
 			soon
 		</info>
+		<site>
+			
+		</site>
 	</game>
 	<game info="new">
 		<name>
@@ -230,6 +248,9 @@
 		<info>
 			new
 		</info>
+		<site>
+			
+		</site>
 	</game>
 	<game info="new">
 		<name>
@@ -264,5 +285,8 @@
 			new
 			awaited
 		</info>
+		<site>
+			
+		</site>
 	</game>
 </games>
