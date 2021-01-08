@@ -10,13 +10,16 @@ function getAllGameVideos() {
 			let games = xmlDOM.querySelectorAll('game');
             var xmlContent2 = '';
 			games.forEach(gameXmlNode => {
+				debugger;
 				xmlContent2 += "<li>"
-							+ "<a href='#'>"
+							//+"<a href='#'>"
+							+ "<a href='" + gameXmlNode.children[10].innerHTML + "'>"	
 								+ "<h2>" + gameXmlNode.children[0].innerHTML + "(" + gameXmlNode.children[4].innerHTML +  ")</h2>"
+							+ "</a>"
 								+ "<iframe width='560' height='315' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 								+ "<div>" + gameXmlNode.children[1].innerHTML + "</div>"
-							 + "</a>"
 						+ "</li>";
+						debugger;
             });
 			document.getElementById("games-game-list").innerHTML = xmlContent2;
         });
