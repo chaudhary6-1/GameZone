@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <games>
 	<game>
-		<name>
-			ARK Survival Evolved
-		</name>
+		<name>ARK Survival Evolved</name>
 		<description>
 			Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape! 
 		</description>
-		<image>
-			arc.jpg
-		</image>
-		<video>
-			https://www.youtube.com/embed/5fIAPcVdZO8
-		</video>
-		<release>
-			Aug 27, 2017
-		</release>
+		<image>arc.jpg</image>
+		<video>	https://www.youtube.com/embed/5fIAPcVdZO8</video>
+		<release>Aug 27, 2017</release>
         <reviews>
 			ARK is an amazing game, But rememeber that the game is still in ALPHA STAGES. 
 			It still has a ways to go before it finished, but it is headed in the right direction. 
 			It gets your heart pumping when you have a lot to lose, and you got a giant dinosaur chasing you down through a forest.
         </reviews>
-        <publisher>
-			Studio Wildcard
-        </publisher>
-        <rating>
-			3.5/5 Stars
-        </rating>
-		<category>
-			Survival
-		</category>
-		<info>
-			none
-		</info>
-		<site>
-			https://gamezone.ninja/ark.html
-		</site>
+        <publisher>Studio Wildcard</publisher>
+        <rating>3.5/5 Stars</rating>
+		<category>Survival</category>
+		<info>none</info>
+		<site>https://gamezone.ninja/ark.html</site>
 	</game>
 	<game>
 		<name>
