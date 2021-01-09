@@ -113,7 +113,7 @@ function getGame(name) {
 				if (gameXmlNode.children[0].innerHTML.includes(name)) {
 					xmlContent2 += "<li>"
 								+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>" + "<div class='category'>" + gameXmlNode.children[8].innerHTML + "</div>"
-								+ "<div class='gamePic'><img src=" + gameXmlNode.children[2].innerHTML + " alt= Game Picture width='1366' height='768'>"
+								+ "<div class='gamePic'><img src=" + gameXmlNode.children[2].innerHTML + " alt='Game Picture' width='1366' height='768'>"
 								+ "<div class='publisher'>" + gameXmlNode.children[6].innerHTML + "</div>"
 								+ "<div class='release'" + gameXmlNode.children[4].innerHTML + "</div>"
 								+ "<div class='rating'" + gameXmlNode.children[7].innerHTML + "</div>"
