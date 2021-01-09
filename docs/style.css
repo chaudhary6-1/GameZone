@@ -103,17 +103,60 @@ a {
 #games-game-list>li>a {
 	display: grid;
 	 grid-template:
-		"title title"
-		"trailer details"
+		"title category"
+		"picture publisher"
+		"picture release"
+		"picture rating"
+		"description description"
+		"video video"
+		"review review"
 		/ 1fr 2fr;
 	column-gap: 10px;
 }
+
+#games-game-list>li {
+	display: grid;
+	 grid-template:
+		"description category"
+		"picture publisher"
+		"picture release"
+		"picture rating"
+		"description description"
+		"video video"
+		"review review"
+		/ 1fr 2fr;
+	column-gap: 10px;
+}
+
 #games-game-list>li>a>h2 {
 	grid-area: title;
 }
+
+.gamePic {
+	grid-area: picture;
+}
+.publisher {
+	grid-area: publisher;
+}
+
+.release {
+	grid-area: release;
+}
+
+.rating {
+	grid-area: rating;
+}
+
+.description {
+	grid-area: description;
+}
+
+.review {
+	grid-area: review;
+}
 	
-#games-game-list>li>a>iframe {
-	grid-area: trailer;
+#games-game-list>li>iframe {
+	grid-area: video;
 }
 	
 #games-game-list>li>a>div {
