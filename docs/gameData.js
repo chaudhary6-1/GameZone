@@ -109,17 +109,15 @@ function getGame(name) {
 
 			games.forEach(gameXmlNode => {
 				if (gameXmlNode.children[0].innerHTML.includes(name)) {
-					xmlContent2 += "<li>"
-								+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>" 
-								+ "<div class='category'>" + " Category: " + gameXmlNode.children[8].innerHTML + "</div>"
-								+ "<img class='gamePic' src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='800' height='600'>"
+					xmlContent2 += 
+								  "<div class='category'>" + " Category: " + gameXmlNode.children[8].innerHTML + "</div>"
+								+ "<img class='gamePic' src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='1000' height='600'>"
 								+ "<div class='publisher'>" + "Publisher:" + gameXmlNode.children[6].innerHTML + "</div>"
 								+ "<div class='release'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
 								+ "<div class='rating'>" + "Rating: " + gameXmlNode.children[7].innerHTML + "</div>"
 								+ "<div class='description'>" + "<h3>Description</h3> <br/>" + gameXmlNode.children[1].innerHTML + "</div>"
 								+ "<iframe width='800' height='600' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
-								+ "<div class='review'>" + "<h3>Review</h3> <br/>" + gameXmlNode.children[5].innerHTML + "</div>"
-						+ "</li>";
+								+ "<div class='review'>" + "<h3>Review</h3> <br/>" + gameXmlNode.children[5].innerHTML + "</div>";
 				}
 		
 			});

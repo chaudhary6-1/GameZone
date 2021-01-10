@@ -151,18 +151,16 @@ a {
 
 #games-game-list {
 	display: grid;
-	grid-template-areas: 
-		"title title title title title"
-		"gamePic gamePic gamePic  category category"
-		"gamePic gamePic gamePic  publisher publisher"
-		"gamePic gamePic gamePic  release release"
-		"gamePic gamePic gamePic  rating rating"
-		"description description description description description"
-		"video video video video video"
-		"review review review review"
+	grid-template:
+		"gamePic category"
+		"gamePic publisher"
+		"gamePic release"
+		"gamePic rating"
+		"description description"
+		"video video"
+		"review review"
 	;
 column-gap: 1em;
-row-gap: 100px;
 	
 }
 
@@ -202,6 +200,7 @@ img.gamePic {
 /* Description */
 .description {
 	grid-area: description;
+	margin-bottom: 2em;
 }
 
 /* Video */
