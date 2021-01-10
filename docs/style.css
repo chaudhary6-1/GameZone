@@ -116,65 +116,95 @@ a {
 
 #games-game-list>li {
 	display: grid;
-	 grid-template:
-		"title2 title2"
-		"picture category"
-		"picture publisher"
-		"picture release"
-		"picture rating"
-		"headingh3 headingh3"
-		"description description"
-		"video video"
-		"headingh3 headingh3"
-		"review review"
-		/ 2fr 1fr;
-	column-gap: 10px;
+	grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+	grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+		
+}
+
+/* Game Title */
+#games-game-list>li>h2 {
+	color: cornsilk;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 10;
+}
+
+/* Game Picture */
+.gamePic {
+	grid-row-start: 2;
+	grid-row-end: 5;
+	grid-column-start: 2;
+	grid-column-end: 6;
+}
+
+/* category */
+.category {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 7;
+	grid-column-end: 10;
+}
+
+/* Publisher */
+.publisher {
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 7;
+	grid-column-end: 10;
+}
+
+/* Release */
+.release {
+	grid-row-start: 4;
+	grid-row-end: 5;
+	grid-column-start: 7;
+	grid-column-end: 10;
+}
+
+/* Rating */
+.rating {
+	grid-row-start: 5;
+	grid-row-end: 6;
+	grid-column-start: 7;
+	grid-column-end: 10;
+}
+
+/* Description */
+.description {
+	padding-left: 10px;
+	grid-row-start: 6;
+	grid-row-end: 9;
+	grid-column-start: 6;
+	grid-column-end: 10;
+}
+
+/* Video */
+#games-game-list>li>iframe {
+	grid-row-start: 6;
+	grid-row-end: 9;
+	grid-column-start: 1;
+	grid-column-end: 6;
+}
+
+/* Heading */
+#games-game-list>li>h3 {
+	color: cornsilk;
+}
+
+/* Review */
+.review {
+	grid-row-start: 9;
+	grid-row-end: 10;
+	grid-column-start: 1;
+	grid-column-end: 10;
 }
 
 #games-game-list>li>a>h2 {
 	grid-area: title;
 }
 
-#games-game-list>li>h3 {
-	grid-area: headingh3;
-}
 
-
-#games-game-list>li>h2 {
-	grid-area: title2;
-}
-
-.gamePic {
-	grid-area: picture;
-}
-.publisher {
-	grid-area: publisher;
-}
-
-.release {
-	grid-area: release;
-}
-
-.rating {
-	grid-area: rating;
-}
-
-.description {
-	grid-area: description;
-}
-
-.review {
-	grid-area: review;
-}
-
-.category {
-	grid-area: category;
-}
-	
-#games-game-list>li>iframe {
-	grid-area: video;
-}
-	
 #games-game-list>li>a>div {
 	grid-area: details;
 }
