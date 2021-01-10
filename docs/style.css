@@ -159,8 +159,8 @@ a {
 
 img.gamePic {
 	grid-area: gamePic;
-	width: 1300px;
-	height: 750px;
+	width: 1000px;
+	height: 600px;
 	padding-bottom: 5em;
 }
 

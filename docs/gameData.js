@@ -109,8 +109,7 @@ function getGame(name) {
 
 			games.forEach(gameXmlNode => {
 				if (gameXmlNode.children[0].innerHTML.includes(name)) {
-					xmlContent2 += 
-								  "<div class='category'>" + " Category: " + gameXmlNode.children[8].innerHTML + "</div>"
+					xmlContent2 += "<div class='category'>" + " Category: " + gameXmlNode.children[8].innerHTML + "</div>"
 								+ "<img class='gamePic' src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture'>"
 								+ "<div class='publisher'>" + "Publisher: " + gameXmlNode.children[6].innerHTML + "</div>"
 								+ "<div class='release'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
