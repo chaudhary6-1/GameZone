@@ -96,7 +96,7 @@ h1 {
 	background-color: rgb(38, 34, 46);
 	text-align: left;
 	width: fit-content;
-    padding: 20px;
+    	padding: 20px;
 }
 
 
@@ -161,7 +161,6 @@ a {
 		"video video video video video"
 		"review review review review"
 	;
-background-color: aliceblue;
 column-gap: 1em;
 row-gap: 100px;
 	
