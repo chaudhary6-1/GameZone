@@ -117,19 +117,31 @@ a {
 #games-game-list>li {
 	display: grid;
 	 grid-template:
-		"description category"
+		"title2 title2"
+		"picture category"
 		"picture publisher"
 		"picture release"
 		"picture rating"
+		"headingh3 headingh3"
 		"description description"
 		"video video"
+		"headingh3 headingh3"
 		"review review"
-		/ 1fr 2fr;
+		/ 2fr 1fr;
 	column-gap: 10px;
 }
 
 #games-game-list>li>a>h2 {
 	grid-area: title;
+}
+
+#games-game-list>li>h3 {
+	grid-area: headingh3;
+}
+
+
+#games-game-list>li>h2 {
+	grid-area: title2;
 }
 
 .gamePic {
@@ -153,6 +165,10 @@ a {
 
 .review {
 	grid-area: review;
+}
+
+.category {
+	grid-area: category;
 }
 	
 #games-game-list>li>iframe {

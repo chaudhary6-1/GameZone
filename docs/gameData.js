@@ -112,13 +112,16 @@ function getGame(name) {
 			games.forEach(gameXmlNode => {
 				if (gameXmlNode.children[0].innerHTML.includes(name)) {
 					xmlContent2 += "<li>"
-								+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>" + "<div class='category'>" + gameXmlNode.children[8].innerHTML + "</div>"
-								+ "<div class='gamePic'><img src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='1366' height='768'>"
-								+ "<div class='publisher'>" + gameXmlNode.children[6].innerHTML + "</div>"
-								+ "<div class='release'>" + gameXmlNode.children[4].innerHTML + "</div>"
-								+ "<div class='rating'>" + gameXmlNode.children[7].innerHTML + "</div>"
+								+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>" 
+								+ "<div class='category'>" + " Category: " + gameXmlNode.children[8].innerHTML + "</div>"
+								+ "<div class='gamePic'><img src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='800' height='600'>"
+								+ "<div class='publisher'>" + "Publisher:" + gameXmlNode.children[6].innerHTML + "</div>"
+								+ "<div class='release'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
+								+ "<div class='rating'>" + "Rating: " + gameXmlNode.children[7].innerHTML + "</div>"
+								+ "<h3>Description</h3>"
 								+ "<div class='description'>" + gameXmlNode.children[1].innerHTML + "</div>"
 								+ "<iframe width='1366' height='768' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+								+ "<h3>Review</h3>"
 								+ "<div class='review'>" + gameXmlNode.children[5].innerHTML + "</div>"
 						+ "</li>";
 				}
