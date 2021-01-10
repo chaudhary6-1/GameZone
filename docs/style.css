@@ -13,7 +13,7 @@
 
 .header ul li a {
     color: white;
-    font-size: 17px;
+    font-size: 22px;
 }
 
 .header li a:hover {
@@ -40,6 +40,7 @@ main img:hover {
 
 body {
     background-color: rgb(34, 34, 34);
+    color: rgb(131, 124, 124);
 }
 
 .header {
@@ -64,6 +65,7 @@ body {
 
 .nav li {
     list-style: none;
+    font-size: 50px;
     padding-top: 50px;
 }
 
