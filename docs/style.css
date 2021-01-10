@@ -93,10 +93,11 @@ body {
 
 
 h1 {
-	background-color: rgb(38, 34, 46);
+	background-color: rgb(56, 51, 65);
 	text-align: left;
 	width: fit-content;
-    	padding: 20px;
+	padding: 20px;
+	color: dimgrey;
 }
 
 
@@ -107,7 +108,7 @@ h1 {
 
 
 .list{
-	background-color: rgba(44, 0, 165, 0.7);
+	background-color: rgba(76, 64, 107, 0.702);
     width: 100%;
     font-size: 15px;
     text-align: inherit;
@@ -160,11 +161,11 @@ a {
 		"video video"
 		"review review"
 	;
-column-gap: 1em;
+	
+	column-gap: 1em;
+	color: rgb(131, 124, 124);
 	
 }
-
-
 
 /* Game Title */
 #games-game-list>li>h2 {
@@ -175,28 +176,42 @@ column-gap: 1em;
 /* Game Picture */
 img.gamePic {
 	grid-area: gamePic;
+	width: 1300px;
+	height: 750px;
+	padding-bottom: 5em;
 }
 
 /* category */
 .category {
 	grid-area: category;
+	padding-top: 2em;
+	font-size: 25px;
+	background-color: rgba(84, 71, 117, 0.702);
 }
 
 /* Publisher */
 .publisher {
 	grid-area: publisher;
+	font-size: 25px;
+	background-color: rgba(84, 71, 117, 0.702);
 }
 
 /* Release */
 .release {
 	grid-area: release;
+	font-size: 25px;
+	background-color: rgba(84, 71, 117, 0.702);
 }
 
 /* Rating */
 .rating {
 	grid-area: rating;
+	font-size: 25px;
+	background-color: rgba(84, 71, 117, 0.702);
+	margin-bottom: auto;
 }
 
+main 
 /* Description */
 .description {
 	grid-area: description;
