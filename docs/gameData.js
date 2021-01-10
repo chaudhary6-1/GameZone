@@ -114,7 +114,7 @@ function getGame(name) {
 					xmlContent2 += "<li>"
 								+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>" 
 								+ "<div class='category'>" + " Category: " + gameXmlNode.children[8].innerHTML + "</div>"
-								+ "<div class='gamePic'><img src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='800' height='600'>"
+								+ "<img class='gamePic' src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='800' height='600'>"
 								+ "<div class='publisher'>" + "Publisher:" + gameXmlNode.children[6].innerHTML + "</div>"
 								+ "<div class='release'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
 								+ "<div class='rating'>" + "Rating: " + gameXmlNode.children[7].innerHTML + "</div>"

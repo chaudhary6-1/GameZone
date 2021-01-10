@@ -131,7 +131,7 @@ a {
 }
 
 /* Game Picture */
-.gamePic {
+img.gamePic {
 	grid-row-start: 2;
 	grid-row-end: 5;
 	grid-column-start: 2;
