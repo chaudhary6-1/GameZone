@@ -1,34 +1,22 @@
 /*header position*/
-header nav ul {
+
+.header ul {
     float: right;
     margin-right: 20px;
 }
 
-header nav ul li {
+.header ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
 
-nav ul li a {
+.header ul li a {
     color: white;
     font-size: 17px;
-    text-transform: uppercase;
 }
 
-header,
-li,
-a {
-    color: white;
-}
-
-header {
-    background: black;
-    height: 80px;
-    width: 100%;
-}
-
-header li a:hover {
+.header li a:hover {
     background-color: darkblue;
 }
 
@@ -37,7 +25,7 @@ header li a:hover {
     height: 100px;
 }
 
-.hover img:hover {
+main img:hover {
     transform: scale(1.1);
 }
 
