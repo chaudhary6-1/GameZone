@@ -1,3 +1,46 @@
+/*header position*/
+header nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+header,
+li,
+a {
+    color: white;
+}
+
+header {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+
+header li a:hover {
+    background-color: darkblue;
+}
+
+.img-size img {
+    width: 100px;
+    height: 100px;
+}
+
+.hover img:hover {
+    transform: scale(1.1);
+}
+
 body {
 	background-color: rgb(34, 34, 34);
 
