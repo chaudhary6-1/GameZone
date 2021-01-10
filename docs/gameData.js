@@ -10,7 +10,6 @@ function getAllGameVideos() {
 			let games = xmlDOM.querySelectorAll('game');
             var xmlContent2 = '';
 			games.forEach(gameXmlNode => {
-				debugger;
 				xmlContent2 += "<li>"
 							+ "<a href='" + gameXmlNode.children[10].innerHTML + "'>"	
 								+ "<h2>" + gameXmlNode.children[0].innerHTML + "(" + gameXmlNode.children[4].innerHTML +  ")</h2>"
@@ -18,7 +17,6 @@ function getAllGameVideos() {
 								+ "<iframe width='560' height='315' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 								+ "<div>" + gameXmlNode.children[1].innerHTML + "</div>"
 						+ "</li>";
-						debugger;
             });
 			document.getElementById("games-game-list").innerHTML = xmlContent2;
         });
@@ -119,7 +117,7 @@ function getGame(name) {
 								+ "<div class='release'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
 								+ "<div class='rating'>" + "Rating: " + gameXmlNode.children[7].innerHTML + "</div>"
 								+ "<div class='description'>" + "<h3>Description</h3> <br/>" + gameXmlNode.children[1].innerHTML + "</div>"
-								+ "<iframe src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+								+ "<iframe width='800' height='600' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 								+ "<div class='review'>" + "<h3>Review</h3> <br/>" + gameXmlNode.children[5].innerHTML + "</div>"
 						+ "</li>";
 				}
