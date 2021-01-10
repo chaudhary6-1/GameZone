@@ -133,15 +133,6 @@ a {
 	text-decoration: none;
 }
 
-#games-game-list {
-	display: grid;		
-	margin-top: 0px;
-	padding-right: 40px;
-}
-
-#games-game-list>ul>li {
-	display: grid;		
-}
 	
 #games-game-list>li>a {
 	display: grid;
@@ -157,7 +148,8 @@ a {
 	column-gap: 10px;
 }
 
-#games-game-list>li {
+
+#games-game-list {
 	display: grid;
 	grid-template-areas: 
 		"title title title title title"
@@ -168,8 +160,14 @@ a {
 		"description description description description description"
 		"video video video video video"
 		"review review review review"
+	;
+background-color: aliceblue;
+column-gap: 1em;
+row-gap: 100px;
 	
 }
+
+
 
 /* Game Title */
 #games-game-list>li>h2 {
