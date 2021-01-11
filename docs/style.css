@@ -16,9 +16,10 @@
     font-size: 22px;
 }
 
-.header li a:hover {
-    background-color: darkblue;
+.header ul li a:hover {
+    font-size: 24px;
 }
+
 
 main img {
     width: 420px;
@@ -67,13 +68,6 @@ body {
     list-style: none;
     font-size: 50px;
     padding-top: 50px;
-}
-
-.nav a {
-    font-size: 40px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: #C1C1C1;
 }
 
 .logo img {
@@ -126,18 +120,44 @@ a {
     text-decoration: none;
 }
 
-#games-game-list>li>a {
+/* Grid for Game Websites */
+#games-games-list li{
     display: grid;
-    grid-template:  "title2 category" 
-                    "picture publisher" 
-                    "picture release" 
-                    "picture rating" 
-                    "description description" 
-                    "video video" 
-                    "review review" 
-                    / 1fr 2fr;
+    grid-template:  "titleAll categoryAll" 
+                    "gamePicAll releaseAll"
+                    "gamePicAll descriptionAll"
+                    ;
     column-gap: 10px;
+    font-size: 20px;
 }
+
+#games-games-list li a h2 {
+    grid-area: titleAll;
+}
+
+#games-games-list li a img {
+    grid-area: gamePicAll;
+    width: 1000px;
+	height: 600px;
+}
+
+#games-games-list li a img:hover {
+    transform: scale(1.01);
+}
+
+#games-games-list li .descriptionAll {
+    grid-area: descriptionAll;
+}
+
+#games-games-list li .releaseAll {
+    grid-area: releaseAll;
+}
+
+#games-games-list li .categoryAll {
+    grid-area: categoryAll;
+}
+
+/* Grid for the Game Websites */
 
 #games-game-list {
 	display: grid;
@@ -151,15 +171,9 @@ a {
 	;
 	
 	column-gap: 1em;
-	color: rgb(131, 124, 124);
+    color: rgb(131, 124, 124);
+    font-size: 20px;
 	
-}
-
-/* Game Title */
-
-#games-game-list>li>h2 {
-    color: cornsilk;
-    grid-area: title;
 }
 
 
@@ -181,7 +195,8 @@ img.gamePic:hover {
 
 .category {
 	grid-area: category;
-	padding-top: 2em;
+    padding-top: 2em;
+    padding-left: 10px;
 	font-size: 25px;
 	background-color: rgba(84, 71, 117, 0.702);
 }
@@ -191,7 +206,8 @@ img.gamePic:hover {
 
 .publisher {
 	grid-area: publisher;
-	font-size: 25px;
+    font-size: 25px;
+    padding-left: 10px;
 	background-color: rgba(84, 71, 117, 0.702);
 }
 
@@ -200,7 +216,8 @@ img.gamePic:hover {
 
 .release {
 	grid-area: release;
-	font-size: 25px;
+    font-size: 25px;
+    padding-left: 10px;
 	background-color: rgba(84, 71, 117, 0.702);
 }
 
@@ -209,12 +226,13 @@ img.gamePic:hover {
 
 .rating {
 	grid-area: rating;
-	font-size: 25px;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 30px;
 	background-color: rgba(84, 71, 117, 0.702);
 	margin-bottom: auto;
 }
 
-main 
 /* Description */
 
 .description {
@@ -273,6 +291,10 @@ footer div ul {
     align-items: stretch;
     height: 100%;
     color: #C1C1C1;
+}
+
+footer div ul li:hover {
+    transform: scale(1.1);
 }
 
 .footer_img {

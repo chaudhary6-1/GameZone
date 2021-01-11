@@ -11,14 +11,17 @@ function getAllGameVideos() {
             var xmlContent2 = '';
 			games.forEach(gameXmlNode => {
 				xmlContent2 += "<li>"
-							+ "<a href='" + gameXmlNode.children[10].innerHTML + "'>"	
-								+ "<h2>" + gameXmlNode.children[0].innerHTML + "(" + gameXmlNode.children[4].innerHTML +  ")</h2>"
-							+ "</a>"
-								+ "<iframe width='560' height='315' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
-								+ "<div>" + gameXmlNode.children[1].innerHTML + "</div>"
-						+ "</li>";
+				+ "<a href='" + gameXmlNode.children[10].innerHTML + "'>"
+					+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>"
+					+ "<img class='gamePicAll' src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture'>"
+				+ "</a>"
+					+ "<div class='categoryAll'>" + gameXmlNode.children[8].innerHTML + "</div>"
+					+ "<div class='releaseAll'>" + gameXmlNode.children[4].innerHTML + "</div>"
+					+ "<div class='descriptionAll'>" + gameXmlNode.children[1].innerHTML + "</div>"
+				
+			+ "</li>";
             });
-			document.getElementById("games-game-list").innerHTML = xmlContent2;
+			document.getElementById("games-games-list").innerHTML = xmlContent2;
         });
         
     });
