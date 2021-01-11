@@ -13,10 +13,12 @@
 - **About Us Page:** Shrestha
 - **Contact Us Page:** Shrestha
 - **Register Page:** Shrestha
-- **FAQ's Page:** Albrecht
+- **FAQ's Page:** Shrestha
 - **Design with CSS** Albrecht & Shrestha
 - **JavaScript** Albrecht & Shrestha
 - **XML Data** Albrecht
+- **Game Pages for each Game** Albrecht
+- **Validation** Albrecht & Shrestha
 
 **Business Description**  
 Our goal is to provide our users with the most up to date informations about games,
