@@ -122,7 +122,7 @@ function getGame(name) {
 								+ "<div class='release'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
 								+ "<div class='rating'>" + "Rating: " + gameXmlNode.children[7].innerHTML + "</div>"
 								+ "<div class='description'>" + "<h3>Description</h3> <br/>" + gameXmlNode.children[1].innerHTML + "</div>"
-								+ "<iframe width='1000' height='700' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
+								+ "<iframe width='1200' height='700' src='" + gameXmlNode.children[3].innerHTML + "' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>"
 								+ "<div class='review'>" + "<h3>Review</h3> <br/>" + gameXmlNode.children[5].innerHTML + "</div>";
 				}
 		

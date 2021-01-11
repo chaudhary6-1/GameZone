@@ -266,6 +266,7 @@ img.gamePic:hover {
 
 .review {
     grid-area: review;
+    padding-left: 20px;
 }
 
 #games-game-list>li>a>h2 {
