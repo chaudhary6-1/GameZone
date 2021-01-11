@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="script.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" id="myTopnav">
+        <!-- <input type="checkbox" id="check">
+        <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+      </label>
+-->
+
         <a href="index.html">
             <div class="logo">
                 <img src="Resources/Logo/logo.svg" alt="Logo">
@@ -30,7 +38,7 @@
                 </a>
             </li>
             <li>
-                <a href="index.html">
+                <a class="active" href="index.html">
                     Home
                 </a>
             </li>
@@ -59,10 +67,15 @@
                     FAQ's
                 </a>
             </li>
-            <li id="register">
-                <a href="registeringInfos.html"><button>Subscribe</button></a>
+            <li>
+                <a href="registeringInfos.html">
+                    Subscribe
+                </a>
             </li>
+
         </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+        <i class="fa fa-bars"></i>
     </div>
 
     <main>
@@ -73,7 +86,7 @@
 
                 <a href="callOfDutyWZ.html" title="cod_description_page">
                     <img src="Resources/GamesPhotos/warzone.jpg" alt="COD Warzone">
-                </a><br>
+                </a>
 
                 <a href="valorant.html" title="valorant_description_page">
                     <img src="Resources/GamesPhotos/valorant.jpg" alt="Valorant">
@@ -86,7 +99,7 @@
             <div class="column">
                 <h1 class="body-nav">Most Awaited Games</h1>
                 <a href="monopolyPlus.html" title="monoply_description_page">
-                    <img src="Resources/GamesPhotos/monopoly.jpg" alt="monoply">
+                    <img src="Resources/GamesPhotos/monoply.jpg" alt="monoply">
                 </a><br>
                 <a href="callOfDutyWZ.html" title="cod_description_page">
                     <img src="Resources/GamesPhotos/warzone.jpg" alt="COD Warzone">
