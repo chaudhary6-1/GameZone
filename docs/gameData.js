@@ -10,10 +10,13 @@ function getAllGameVideos() {
 			let games = xmlDOM.querySelectorAll('game');
             var xmlContent2 = '';
 			games.forEach(gameXmlNode => {
+				var link = gameXmlNode.children[10].innerHTML
 				xmlContent2 += "<li>"
-				+ "<a href='" + gameXmlNode.children[10].innerHTML + "'>"
+				+ "<a href='" + link + "' class='titleAll'>"
 					+ "<h2>" + gameXmlNode.children[0].innerHTML + "</h2>"
-					+ "<img class='gamePicAll' src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture'>"
+				+ "</a>"
+				+ "<a href='" + link + "' class='gamePicAll'>"
+					+ "<img src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='1000' height='562'>"
 				+ "</a>"
 					+ "<div class='categoryAll'>" + gameXmlNode.children[8].innerHTML + "</div>"
 					+ "<div class='releaseAll'>" + gameXmlNode.children[4].innerHTML + "</div>"

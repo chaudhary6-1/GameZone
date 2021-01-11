@@ -101,6 +101,8 @@ h1 {
     padding: 0;
     border-top: 10px solid rgba(46, 32, 44, 0.959);
     border-bottom: 10px solid rgba(46, 32, 44, 0.959);
+    border-left: 10px solid rgba(46, 32, 44, 0.959);
+    border-right: 10px solid rgba(46, 32, 44, 0.959);
 }
 
 ul>li>p {
@@ -123,37 +125,38 @@ a {
 /* Grid for Game Websites */
 #games-games-list li{
     display: grid;
-    grid-template:  "titleAll categoryAll" 
+    grid-template:  "titleAll titleAll" 
+                    "gamePicAll categoryAll"
                     "gamePicAll releaseAll"
                     "gamePicAll descriptionAll"
+                    
                     ;
     column-gap: 10px;
     font-size: 20px;
 }
 
-#games-games-list li a h2 {
+.titleAll {
     grid-area: titleAll;
 }
 
-#games-games-list li a img {
+.gamePicAll {
     grid-area: gamePicAll;
-    width: 1000px;
-	height: 600px;
+    padding-right: 100px;
 }
 
-#games-games-list li a img:hover {
+.gamePicAll:hover {
     transform: scale(1.01);
 }
 
-#games-games-list li .descriptionAll {
+.descriptionAll {
     grid-area: descriptionAll;
 }
 
-#games-games-list li .releaseAll {
+.releaseAll {
     grid-area: releaseAll;
 }
 
-#games-games-list li .categoryAll {
+.categoryAll {
     grid-area: categoryAll;
 }
 
@@ -168,7 +171,7 @@ a {
 		"gamePic rating"
 		"description description"
 		"video review"
-	;
+    ;
 	
 	column-gap: 1em;
     color: rgb(131, 124, 124);
