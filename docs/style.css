@@ -12,8 +12,8 @@
 }
 
 .header ul li a {
-    color: white;
-    font-size: 22px;
+    color: floralwhite;
+    font-size: 30px;
 }
 
 .header ul li a:hover {
@@ -88,14 +88,13 @@ h1 {
 }
 
 #title {
-    font-size: 50px;
     margin-right: 3em;
 }
 
 
 .list{
 	background-color: rgba(76, 64, 107, 0.702);
-    width: 100%;
+    width: 99%;
     font-size: 15px;
     text-align: inherit;
     padding: 0;
