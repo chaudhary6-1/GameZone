@@ -18,9 +18,9 @@ function getAllGameVideos() {
 				+ "<a href='" + link + "' class='gamePicAll'>"
 					+ "<img src=" + gameXmlNode.children[2].innerHTML + " alt='GamePicture' width='1000' height='562'>"
 				+ "</a>"
-					+ "<div class='categoryAll'>" + gameXmlNode.children[8].innerHTML + "</div>"
-					+ "<div class='releaseAll'>" + gameXmlNode.children[4].innerHTML + "</div>"
-					+ "<div class='descriptionAll'>" + gameXmlNode.children[1].innerHTML + "</div>"
+					+ "<div class='categoryAll'>" + "Category: " + gameXmlNode.children[8].innerHTML + "</div>"
+					+ "<div class='releaseAll'>" + "Release Date: " + gameXmlNode.children[4].innerHTML + "</div>"
+					+ "<div class='descriptionAll'>" + "Description: <br/>" + gameXmlNode.children[1].innerHTML + "</div>"
 				
 			+ "</li>";
             });
