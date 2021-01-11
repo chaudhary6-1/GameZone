@@ -129,7 +129,6 @@ a {
                     "gamePicAll categoryAll"
                     "gamePicAll releaseAll"
                     "gamePicAll descriptionAll"
-                    
                     ;
     column-gap: 10px;
     font-size: 20px;
@@ -137,11 +136,16 @@ a {
 
 .titleAll {
     grid-area: titleAll;
+    background-color: rgba(40, 33, 56, 0.702);
 }
+
+
 
 .gamePicAll {
     grid-area: gamePicAll;
     padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .gamePicAll:hover {
@@ -158,6 +162,7 @@ a {
 
 .categoryAll {
     grid-area: categoryAll;
+    padding-top: 10px;
 }
 
 /* Grid for the Game Websites */
