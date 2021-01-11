@@ -35,7 +35,7 @@ function getAllGameVideos() {
           gameXmlNode.children[4].innerHTML +
           "</div>" +
           "<div class='descriptionAll'>" +
-          "Description: <br/>" +
+          "Description: <br/> <br/>" +
           gameXmlNode.children[1].innerHTML +
           "</div>" +
           "</li>";
