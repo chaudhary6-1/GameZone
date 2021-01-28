@@ -1,88 +1,87 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-  <head>
-    <meta charset="utf-8" />
+
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#250048">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8" name="description" content="League of Legends." />
     <title>League of Legends</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="gameData.js"></script>
-  </head>
+    <script src="gameData.js" type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Review",
+            "name": "League of Legends"
+        }
+    </script>
+</head>
 
-  <body onload="getGame('League of Legends');">
+<body onload="getGame('League of Legends');">
     <header>
-      <a href="index.html">
-        <div class="logo">
-          <img src="Resources/Logo/logo.jpg" alt="Logo" />
-        </div>
-      </a>
+        <a href="index.html">
+            <div class="logo">
+                <img src="Resources/Logo/logo.jpg" alt="Logo" />
+            </div>
+        </a>
 
-      <nav>
-        <ul>
-          <li id="title">
-            <a href="index.html"> Gamezone </a>
-          </li>
-          <li>
-            <a href="index.html"> Home </a>
-          </li>
-          <li>
-            <a href="categories.html"> Categories </a>
-          </li>
-          <li>
-            <a href="allGames.html"> All Games </a>
-          </li>
-          <li>
-            <a href="aboutUs.html"> About us </a>
-          </li>
-          <li>
-            <a href="contact.html"> Contact </a>
-          </li>
-          <li>
-            <a href="faqs.html"> FAQ's </a>
-          </li>
-          <li>
-            <a href="registeringInfos.html"> Subscribe </a>
-          </li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li id="title">
+                    <a href="index.html"> Gamezone </a>
+                </li>
+                <li>
+                    <a href="index.html"> Home </a>
+                </li>
+                <li>
+                    <a href="categories.html"> Categories </a>
+                </li>
+                <li>
+                    <a href="allGames.html"> All Games </a>
+                </li>
+                <li>
+                    <a href="aboutUs.html"> About us </a>
+                </li>
+                <li>
+                    <a href="contact.html"> Contact </a>
+                </li>
+                <li>
+                    <a href="faqs.html"> FAQ's </a>
+                </li>
+                <li>
+                    <a href="registeringInfos.html"> Subscribe </a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-      <h1>League of Legends</h1>
-      <div class="list">
-        <ul id="games-game-list"></ul>
-      </div>
+        <h1>League of Legends</h1>
+        <div class="list">
+            <ul id="games-game-list"></ul>
+        </div>
     </main>
 
     <footer>
-      <div>
-        <ul>
-          <li>
-            <a href="https://www.facebook.com"
-              ><img
-                class="footer_img"
-                alt="Facebook"
-                src="Resources/Facebook_icon.svg"
-            /></a>
-          </li>
-          <li>
-            <a href="https://twitter.com"
-              ><img
-                class="footer_img"
-                alt="Twitter"
-                src="Resources/Twitter.svg"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/"
-              ><img
-                class="footer_img"
-                alt="Instagram"
-                src="Resources/Instagram.svg"
-            /></a>
-          </li>
+        <div>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com"><img class="footer_img" alt="Facebook" src="Resources/Facebook_icon.svg" /></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com"><img class="footer_img" alt="Twitter" src="Resources/Twitter.svg" /></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/"><img class="footer_img" alt="Instagram" src="Resources/Instagram.svg" /></a>
+                </li>
 
-          <li id="copyrigth">&copy; Copyright 2020</li>
-        </ul>
-      </div>
+                <li id="copyrigth">&copy; Copyright 2020</li>
+            </ul>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>
