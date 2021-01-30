@@ -83,8 +83,6 @@
                                     }
                                     
                                     nav ul {
-                                        display: flow-root;
-                                        width: 100%;
                                         justify-content: space-around;
                                         padding-right: 40px;
                                         background-color: rgba(53, 53, 53, 0.959);
@@ -97,10 +95,8 @@
                                     
                                     nav ul li {
                                         list-style: none;
-                                        font-size: 50px;
                                         padding-top: 30px;
                                         padding-bottom: 30px;
-                                        padding-left: 30px;
                                         padding-right: 30px;
                                     }
                                     
