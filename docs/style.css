@@ -1,350 +1,361 @@
-                                        /*header position*/
-                                    
-                                    header ul li {
-                                        display: inline-block;
-                                        line-height: 80px;
-                                    }
-                                    
-                                    header ul li a {
-                                        color: floralwhite;
-                                        font-size: 30px;
-                                    }
-                                    
-                                    header ul li a:hover {
-                                        font-size: 32px;
-                                    }
-                                    
-                                    main img {
-                                        width: 420px;
-                                        height: 250px;
-                                    }
-                                    
-                                    main img:hover {
-                                        transform: scale(1.1);
-                                    }
-                                    
-                                    .breadcrumb {
-                                        padding: 0.8em 1em;
-                                        border: 1px solid hsl(0, 0%, 90%);
-                                        border-radius: 4px;
-                                        background: #F6F6F6;
-                                    }
-                                    
-                                    .breadcrumb ol {
-                                        margin: 0;
-                                        padding-left: 0;
-                                        list-style: none;
-                                    }
-                                    
-                                    .breadcrumb li {
-                                        display: inline;
-                                    }
-                                    
-                                    .breadcrumb li+li::before {
-                                        display: inline-block;
-                                        margin: 0 0.25em;
-                                        transform: rotate(15deg);
-                                        border-right: 0.1em solid currentColor;
-                                        height: 0.8em;
-                                        content: '';
-                                    }
-                                    
-                                    .breadcrumb [aria-current="page"] {
-                                        color: #000;
-                                        font-weight: 700;
-                                        text-decoration: none;
-                                    }
-                                    
-                                    .row {
-                                        display: flex;
-                                    }
-                                    
-                                    .column {
-                                        flex: 33.33%;
-                                        padding: 5px;
-                                    }
-                                    
-                                    body {
-                                        background-color: #F6F6F6;
-                                        color: rgb(0, 0, 0);
-                                    }
-                                    
-                                    header {
-                                        display: flex;
-                                        width: auto;
-                                        background-color: #1c1b17;
-                                        background-blend-mode: luminosity;
-                                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-                                    }
-                                    
-                                    nav {
-                                        padding-left: 30px;
-                                        padding-right: 20px;
-                                    }
-                                    
-                                    nav ul {
-                                        justify-content: space-around;
-                                        padding-right: 40px;
-                                        background-color: rgba(53, 53, 53, 0.959);
-                                    }
-                                    
-                                    .logo {
-                                        padding: 10px;
-                                        width: 10%;
-                                    }
-                                    
-                                    nav ul li {
-                                        list-style: none;
-                                        padding-top: 30px;
-                                        padding-bottom: 30px;
-                                        padding-right: 30px;
-                                    }
-                                    
-                                    .logo img {
-                                        height: 180px;
-                                    }
-                                    
-                                    #Categories_List li {
-                                        font-size: 40px;
-                                        color: aliceblue;
-                                    }
-                                    
-                                    h1 {
-                                        background-color: #383341;
-                                        text-align: left;
-                                        width: fit-content;
-                                        padding: 20px;
-                                        color: floralwhite;
-                                    }
-                                    
-                                    #title {
-                                        margin-right: 1em;
-                                    }
-                                    
-                                    #title a {
-                                        font-size: 50px;
-                                        color: azure;
-                                    }
-                                    
-                                    .list {
-                                        background-color: rgba(76, 64, 107, 0.702);
-                                        width: 99%;
-                                        font-size: 15px;
-                                        text-align: inherit;
-                                        padding: 0;
-                                        border-top: 10px solid rgba(46, 32, 44, 0.959);
-                                        border-bottom: 10px solid rgba(46, 32, 44, 0.959);
-                                        border-left: 10px solid rgba(46, 32, 44, 0.959);
-                                        border-right: 10px solid rgba(46, 32, 44, 0.959);
-                                    }
-                                    
-                                    ul>li>p {
-                                        text-align: center;
-                                        margin: 0;
-                                        padding-top: 10px;
-                                        padding-bottom: 10px;
-                                        width: 200px;
-                                    }
-                                    
-                                    ul {
-                                        list-style-type: none;
-                                    }
-                                    
-                                    a {
-                                        color: inherit;
-                                        text-decoration: none;
-                                    }
-                                    /* Grid for Game Websites */
-                                    
-                                    #games-games-list li {
-                                        display: grid;
-                                        grid-template: "titleAll titleAll" "gamePicAll categoryAll" "gamePicAll releaseAll" "gamePicAll descriptionAll";
-                                        column-gap: 10px;
-                                        font-size: 25px;
-                                    }
-                                    
-                                    .titleAll {
-                                        grid-area: titleAll;
-                                        background-color: rgba(40, 33, 56, 0.702);
-                                    }
-                                    
-                                    .gamePicAll {
-                                        grid-area: gamePicAll;
-                                        padding-right: 100px;
-                                        padding-bottom: 30px;
-                                        padding-top: 10px;
-                                    }
-                                    
-                                    .gamePicAll:hover {
-                                        transform: scale(1.01);
-                                    }
-                                    
-                                    .descriptionAll {
-                                        grid-area: descriptionAll;
-                                    }
-                                    
-                                    .releaseAll {
-                                        grid-area: releaseAll;
-                                    }
-                                    
-                                    .categoryAll {
-                                        grid-area: categoryAll;
-                                        padding-top: 20px;
-                                    }
-                                    /* Grid for the Game Websites */
-                                    
-                                    #games-game-list {
-                                        display: grid;
-                                        grid-template: "gamePic category" "gamePic publisher" "gamePic release" "gamePic rating" "description description" "video review";
-                                        column-gap: 1em;
-                                        color: rgb(0, 0, 0);
-                                        font-size: 20px;
-                                    }
-                                    /* Game Picture */
-                                    
-                                    img.gamePic {
-                                        grid-area: gamePic;
-                                        width: 1000px;
-                                        height: 600px;
-                                        padding-bottom: 5em;
-                                    }
-                                    
-                                    img.gamePic:hover {
-                                        transform: none;
-                                    }
-                                    /* category */
-                                    
-                                    .category {
-                                        grid-area: category;
-                                        padding-top: 2em;
-                                        padding-left: 10px;
-                                        font-size: 25px;
-                                        background-color: rgba(84, 71, 117, 0.702);
-                                    }
-                                    /* Publisher */
-                                    
-                                    .publisher {
-                                        grid-area: publisher;
-                                        font-size: 25px;
-                                        padding-left: 10px;
-                                        background-color: rgba(84, 71, 117, 0.702);
-                                    }
-                                    /* Release */
-                                    
-                                    .release {
-                                        grid-area: release;
-                                        font-size: 25px;
-                                        padding-left: 10px;
-                                        background-color: rgba(84, 71, 117, 0.702);
-                                    }
-                                    /* Rating */
-                                    
-                                    .rating {
-                                        grid-area: rating;
-                                        font-size: 25px;
-                                        padding-left: 10px;
-                                        padding-bottom: 30px;
-                                        background-color: rgba(84, 71, 117, 0.702);
-                                        margin-bottom: auto;
-                                    }
-                                    /* Description */
-                                    
-                                    .description {
-                                        grid-area: description;
-                                        padding-bottom: 2em;
-                                    }
-                                    /* Video */
-                                    
-                                    #games-game-list>li>iframe {
-                                        grid-area: iframe;
-                                    }
-                                    /* Heading */
-                                    
-                                    #games-game-list>li>h3 {
-                                        color: cornsilk;
-                                    }
-                                    /* Review */
-                                    
-                                    .review {
-                                        grid-area: review;
-                                        padding-left: 20px;
-                                    }
-                                    
-                                    #games-game-list>li>a>h2 {
-                                        grid-area: title2;
-                                    }
-                                    
-                                    #games-game-list>li>a>div {
-                                        grid-area: details;
-                                    }
-                                    
-                                    .questions p {
-                                        padding: 10px 0;
-                                    }
-                                    
-                                    .footer-text {
-                                        text-align: left;
-                                        margin-left: 30px;
-                                        font-size: 18px;
-                                    }
-                                    
-                                    footer {
-                                        background-color: rgba(46, 32, 44, 0.959);
-                                        padding-bottom: 2em;
-                                        height: 2em;
-                                        left: 0;
-                                        width: 100%;
-                                    }
-                                    
-                                    footer div ul {
-                                        display: flex;
-                                        flex-flow: row nowrap;
-                                        padding-top: 1em;
-                                        justify-content: space-around;
-                                        align-items: stretch;
-                                        height: 100%;
-                                        color: #c1c1c1;
-                                    }
-                                    
-                                    footer div ul li:hover {
-                                        transform: scale(1.1);
-                                    }
-                                    
-                                    .footer_img {
-                                        width: 50px;
-                                    }
-                                    
-                                    #copyright {
-                                        display: none;
-                                    }
-                                    
-                                    .container {
-                                        display: grid;
-                                        grid-template-columns: 1fr 1fr 1fr;
-                                    }
-                                    
-                                    @media screen and(max-width: 1500px) {
-                                        main>h1 {
-                                            width: 50%;
-                                        }
-                                    }
-                                    
-                                    @media screen and(max-width: 600px) {
-                                        #myTopnav {
-                                            display: block;
-                                        }
-                                        @media screen and(max-width: 600px) {}
-                                        @media screen and (max-width:800) {
-                                            .column {
-                                                -ms-flex: 50%;
-                                                flex: 50%;
-                                                max-width: 50%;
-                                            }
-                                        }
-                                        @media screen and(max-width: 600px) {
-                                            .column {
-                                                -ms-flex: 100%;
-                                                flex: 100%;
-                                                max-width: 100%;
-                                            }
-                                        }
+/*header position*/
+
+header ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+header ul li a {
+    color: floralwhite;
+    font-size: 30px;
+}
+
+header ul li a:hover {
+    font-size: 32px;
+}
+
+main img {
+    width: 420px;
+    height: 250px;
+}
+
+main img:hover {
+    transform: scale(1.1);
+}
+
+.breadcrumb {
+    padding: 0.8em 1em;
+    border: 1px solid hsl(0, 0%, 90%);
+    border-radius: 4px;
+    background: #F6F6F6;
+}
+
+.breadcrumb ol {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    display: inline-block;
+    margin: 0 0.25em;
+    transform: rotate(15deg);
+    border-right: 0.1em solid currentColor;
+    height: 0.8em;
+    content: '';
+}
+
+.breadcrumb [aria-current="page"] {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+body {
+    background-color: #F6F6F6;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    width: auto;
+    background-color: #1c1b17;
+    background-blend-mode: luminosity;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+nav ul {
+    justify-content: space-around;
+    padding-right: 40px;
+    background-color: rgba(53, 53, 53, 0.959);
+}
+
+.logo {
+    padding: 10px;
+    width: 10%;
+}
+
+nav ul li {
+    list-style: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+.logo img {
+    height: 180px;
+}
+
+#Categories_List li {
+    font-size: 40px;
+    color: aliceblue;
+}
+
+h1 {
+    background-color: #383341;
+    text-align: left;
+    width: fit-content;
+    padding: 20px;
+    color: floralwhite;
+}
+
+#title {
+    margin-right: 1em;
+}
+
+#title a {
+    font-size: 50px;
+    color: azure;
+}
+
+.list {
+    background-color: rgba(76, 64, 107, 0.702);
+    width: 99%;
+    font-size: 15px;
+    text-align: inherit;
+    padding: 0;
+    border-top: 10px solid rgba(46, 32, 44, 0.959);
+    border-bottom: 10px solid rgba(46, 32, 44, 0.959);
+    border-left: 10px solid rgba(46, 32, 44, 0.959);
+    border-right: 10px solid rgba(46, 32, 44, 0.959);
+}
+
+ul>li>p {
+    text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Grid for Game Websites */
+
+#games-games-list li {
+    display: grid;
+    grid-template: "titleAll titleAll" "gamePicAll categoryAll" "gamePicAll releaseAll" "gamePicAll descriptionAll";
+    column-gap: 10px;
+    font-size: 25px;
+}
+
+.titleAll {
+    grid-area: titleAll;
+    background-color: rgba(40, 33, 56, 0.702);
+}
+
+.gamePicAll {
+    grid-area: gamePicAll;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.gamePicAll:hover {
+    transform: scale(1.01);
+}
+
+.descriptionAll {
+    grid-area: descriptionAll;
+}
+
+.releaseAll {
+    grid-area: releaseAll;
+}
+
+.categoryAll {
+    grid-area: categoryAll;
+    padding-top: 20px;
+}
+
+/* Grid for the Game Websites */
+
+#games-game-list {
+    display: grid;
+    grid-template: "gamePic category" "gamePic publisher" "gamePic release" "gamePic rating" "description description" "video review";
+    column-gap: 1em;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+/* Game Picture */
+
+img.gamePic {
+    grid-area: gamePic;
+    width: 1000px;
+    height: 600px;
+    padding-bottom: 3em;
+}
+
+img.gamePic:hover {
+    transform: none;
+}
+
+/* category */
+
+.category {
+    grid-area: category;
+    padding-top: 2em;
+    padding-left: 10px;
+    font-size: 25px;
+    background-color: rgba(84, 71, 117, 0.702);
+}
+
+/* Publisher */
+
+.publisher {
+    grid-area: publisher;
+    font-size: 25px;
+    padding-left: 10px;
+    background-color: rgba(84, 71, 117, 0.702);
+}
+
+/* Release */
+
+.release {
+    grid-area: release;
+    font-size: 25px;
+    padding-left: 10px;
+    background-color: rgba(84, 71, 117, 0.702);
+}
+
+/* Rating */
+
+.rating {
+    grid-area: rating;
+    font-size: 25px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+    background-color: rgba(84, 71, 117, 0.702);
+    margin-bottom: auto;
+}
+
+/* Description */
+
+.description {
+    grid-area: description;
+    padding-bottom: 2em;
+}
+
+/* Video */
+
+#games-game-list>li>iframe {
+    grid-area: iframe;
+}
+
+/* Heading */
+
+#games-game-list>li>h3 {
+    color: cornsilk;
+}
+
+/* Review */
+
+.review {
+    grid-area: review;
+    padding-left: 20px;
+}
+
+#games-game-list>li>a>h2 {
+    grid-area: title2;
+}
+
+#games-game-list>li>a>div {
+    grid-area: details;
+}
+
+.questions p {
+    padding: 10px 0;
+}
+
+.footer-text {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgba(46, 32, 44, 0.959);
+    padding-bottom: 2em;
+    height: 3em;
+    left: 0;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-top: 1em;
+    justify-content: space-around;
+    align-items: stretch;
+    color: #c1c1c1;
+}
+
+footer ul li:hover {
+    transform: scale(1.1);
+}
+
+.footer_img {
+    width: 50px;
+}
+
+#copyright {
+    display: none;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and(max-width: 1500px) {
+    main>h1 {
+        width: 50%;
+    }
+}
+
+@media screen and(max-width: 600px) {
+    #myTopnav {
+        display: block;
+    }
+    @media screen and(max-width: 600px) {}
+    @media screen and (max-width:800) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+    @media screen and(max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+}
