@@ -83,7 +83,7 @@
                                     }
                                     
                                     nav ul {
-                                        display: flex;
+                                        display: flow-root;
                                         width: 100%;
                                         justify-content: space-around;
                                         padding-right: 40px;
