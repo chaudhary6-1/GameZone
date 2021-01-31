@@ -138,9 +138,10 @@ a {
 }
 
 .titleAll {
-    text-align:center;
+      text-align: center;
     grid-area: titleAll;
     background-color: #CBD3DA;
+
 }
 
 .gamePicAll {
