@@ -24,7 +24,7 @@ function getAllGameVideos() {
                     "' class='gamePicAll'>" +
                     "<img src=" +
                     gameXmlNode.children[2].innerHTML +
-                    " alt='' width='1000' height='562'>" +
+                    " width='1000' height='562'>" +
                     "</a>" +
                     "<div class='categoryAll'>" +
                     "Category: " +
