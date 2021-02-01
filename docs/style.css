@@ -335,6 +335,14 @@ input[type=submit]:hover {
     margin-left: 30px;
     font-size: 18px;
 }
+/*categories.html style*/
+.gamenames {
+    background-color: #7E7694;
+    padding-top: 3em;
+    padding-left: 3em;
+    padding-bottom: 3em;
+    padding-bottom: 3em;
+}
 
 footer {
     background-color: rgba(46, 32, 44, 0.959);
