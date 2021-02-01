@@ -14,6 +14,7 @@
 		<category>Survival</category>
 		<info>none</info>
 		<site>https://gamezone.ninja/ark.html</site>
+		<alt>ARK title picture</alt>
 	</game>
 	<game>
 		<name>Counter-Strike: Global Offensive</name>
@@ -29,6 +30,7 @@
 		<category>Shooter</category>
 		<info>none</info>
 		<site>https://gamezone.ninja/csgo.html</site>
+		<alt>CSGO title picture</alt>
 	</game>
 	<game>
 		<name>Grand Theft Auto V</name>
@@ -42,6 +44,7 @@
 		<category>Open World</category>
 		<info>top</info>
 		<site>https://gamezone.ninja/gta5.html</site>
+		<alt>GTA5 title picture</alt>
 	</game>
 	<game>
 		<name>Monopoly</name>
@@ -56,6 +59,7 @@
 		<category>Board games</category>
 		<info>awaited</info>
 		<site>https://gamezone.ninja/monopolyPlus.html</site>
+		<alt>Monopoly title picture</alt>
 	</game>
 	<game>
 		<name>League of Legends</name>
@@ -70,6 +74,7 @@
 		<category>RPG</category>
 		<info>top</info>
 		<site>https://gamezone.ninja/leagueOfLegends.html</site>
+		<alt>League of Legends title picture</alt>
 	</game>
 	<game>
 		<name>Hitman III</name>
@@ -83,6 +88,7 @@
 		<category>Shooter</category>
 		<info>soon</info>
 		<site>https://gamezone.ninja/hitman3.html</site>
+		<alt>Hitman3 title picture</alt>
 	</game>
 	<game>
 		<name>Valorant</name>
@@ -97,6 +103,7 @@
 		<category>Shooter</category>
 		<info>new</info>
 		<site>https://gamezone.ninja/valorant.html</site>
+		<alt>Valorant title picture</alt>
 	</game>
 	<game>
 		<name>Call of Duty Warzone</name>
@@ -111,5 +118,6 @@
 		<category>Shooter</category>
 		<info>new awaited</info>
 		<site>https://gamezone.ninja/callOfDutyWZ.html</site>
+		<alt>Call of Duty Warzone title picture</alt>
 	</game>
 </games>
