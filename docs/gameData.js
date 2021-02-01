@@ -22,11 +22,11 @@ function getAllGameVideos() {
           "<a href='" +
           link +
           "' class='gamePicAll'>" +
-          "<img alt='" +
-          gameXmlNode.children[11].innerHTML +
-          "' src=" +
+          "<img src=" +
           gameXmlNode.children[2].innerHTML +
-          " width='1000' height='562'>" +
+          " alt='" +
+          gameXmlNode.children[11].innerHTML +
+          "' width='1000' height='562'>" +
           "</a>" +
           "<div class='categoryAll'>" +
           "Category: " +
