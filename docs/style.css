@@ -308,7 +308,7 @@ input[type=checkbox] {
 
 input[type=submit] {
     background-color: #4CAF50;
-    color: white;
+    color: black;
     border: none;
 }
 
@@ -354,31 +354,4 @@ footer ul li:hover {
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
-
-@media screen and(max-width: 1500px) {
-    main>h1 {
-        width: 50%;
-    }
-}
-
-@media screen and(max-width: 600px) {
-    #myTopnav {
-        display: block;
-    }
-    @media screen and(max-width: 600px) {}
-    @media screen and (max-width:800) {
-        .column {
-            -ms-flex: 50%;
-            flex: 50%;
-            max-width: 50%;
-        }
-    }
-    @media screen and(max-width: 600px) {
-        .column {
-            -ms-flex: 100%;
-            flex: 100%;
-            max-width: 100%;
-        }
-    }
 }
