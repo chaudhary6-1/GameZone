@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Register Visitor</title>
@@ -11,7 +11,7 @@
     <header>
       <a href="index.html">
         <div class="logo">
-          <img src="Resources/Logo/logo.jpg" alt="Logo" />
+          <img src="Resources/Logo/logo.jpg" alt="Gamezone" />
         </div>
       </a>
 
@@ -46,46 +46,34 @@
     </header>
 
     <main>
-      <form>
-        <div class="subscribe">
-          <h2>Subscribe to our Newsletter</h2>
-          <p>
-            We will provide you with the udates on the New Games available in
-            the market with their individual requirements
-          </p>
-        </div>
+           <h1>Subscribe to our Newsletter</h1>
 
-        <div class="container" style="background-color: white">
-          <input
-            type="text"
-            placeholder="First Name"
-            name="fname"
-            required
-          /><br />
-          <input
-            type="text"
-            placeholder="Last Name"
-            name="lname"
-            required
-          /><br />
+        <h2>
+            We will provide you with the udates on the New Games available in the market with their individual requirements
+        </h2>
 
-          <input
-            type="text"
-            placeholder="Email address"
-            name="mail"
-            required
-          /><br />
-          <br />
-          <label>
-            <input type="checkbox" checked="checked" name="subscribe" /> Daily
-            Newsletter
-          </label>
-        </div>
-        <br />
         <div class="container">
-          <input type="submit" value="Subscribe" />
+            <form action="next.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." /><br />
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." /><br />
+
+                <label for="email">Email-address</label>
+                <input type="email" id="email" name="Email-address" placeholder="Your email address.. " /><br />
+
+                <label>
+                <input type="checkbox" checked="checked" name="subscribe" /> Daily Newsletter
+                </label>
+
+
+
+                <input type="submit" value="Subscribe" />
+
+            </form>
         </div>
-      </form>
+
     </main>
 
     <footer>
