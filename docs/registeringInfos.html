@@ -46,31 +46,33 @@
     </header>
 
     <main>
-      <form>
-            <div class="subscribe-contact">
-                <h1>Subscribe to our Newsletter</h1>
+        <h1>Subscribe to our Newsletter</h1>
 
-                <h2>
-                    We will provide you with the udates on the New Games available in the market with their individual requirements
-                </h2>
-            </div>
+        <h2>
+            We will provide you with the udates on the New Games available in the market with their individual requirements
+        </h2>
 
-            <div class="container">
-                <input type="text" placeholder="First Name" name="fname" required /><br />
-                <input type="text" placeholder="Last Name" name="lname" required /><br />
+        <div class="container">
+            <form action="">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." /><br />
 
-                <input type="text" placeholder="Email address" name="mail" required /><br />
-                <br />
-                <label>
-            <input type="checkbox" checked="checked" name="subscribe" /> Daily
-            Newsletter
-          </label>
-            </div>
-            <br />
-            <div class="container">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." /><br />
+
+                <label for="email">Email-address</label>
+                <input type="email" id="email" name="Email-address" placeholder="Your email address.. " /><br />
+
+
+                <input type="checkbox" checked="checked" name="subscribe" /> Daily Newsletter
+                </label>
+
+
+
                 <input type="submit" value="Subscribe" />
-            </div>
-        </form>
+
+            </form>
+        </div>
     </main>
 
     <footer>
